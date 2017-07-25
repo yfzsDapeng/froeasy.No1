@@ -1,0 +1,515 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*导航开始*/
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 3;
+    background-color: rgba(177, 226, 222, .7);
+}
+.nav .nav_logo{
+   float: left;
+    width: 135px;
+    padding-top: 16px;
+   margin-left: 180px;
+}
+.nav .nav_ul {
+    display: block;
+    padding-left:210px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+}
+.nav .nav_ul li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav .nav_ul li a{
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 900;
+}
+.nav .nav_ul li a:hover{
+    color: #24AAE0;
+    border-bottom: 2px solid #24AAE0;
+}
+.nav_tel{
+    position: absolute;
+    top: 16px;
+    right: 90px;
+    color: #333333;
+    font-size:14px;
+    font-weight: 900;
+}
+/*导航结束*/
+
+/*展示图开始*/
+.center_img img{
+    margin-top: 90px;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+/*展示图结束*/
+
+/*设备展示开始*/
+.head1{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.head_h2a{
+    color: #25A9E0;
+}
+.head_line1{
+    display: block;
+    margin: 0 auto;
+    width:150px;
+    height: 1px;
+    border-top: 2px solid #25A9E0;
+    padding-bottom: 10px;
+}
+.head_p1{
+    border-top: #25A9E0;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 900;
+}
+.equipment{
+    margin-bottom: 100px;
+}
+.equipment_show{
+    height: 500px;
+    width: 530px;
+    padding-top: 38px;
+    border: 1px solid #E3E3E3;
+    text-align:center;
+    position: relative;
+}
+.equipment_show_btn{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:#666666;
+    opacity: .7;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.equipment_show_btn:hover{
+    background-color: #0ea0db;
+}
+/*设备展示结束*/
+
+/*我们的优势开始*/
+.advantages{
+    height: 585px;
+    background-color: #52C8E6;
+    margin-bottom: 80px;
+}
+.advantages_box{
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 180px;
+    text-align: center;
+    margin-left: 50px;
+    position: relative;
+}
+.advantages_box_title{
+    position: absolute;
+    left: 60px;
+    top:120px;
+}
+.advantages_box_text{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+/*我们的优势结束*/
+
+/*动态开始*/
+.dynamic{
+    height: 545px;
+    margin-bottom: 65px;
+}
+/*动态左*/
+.dynamic_left{
+    width: 595px;
+    height: 540px;
+    /*border: 1px solid black;*/
+    margin-right: 100px;
+}
+/*新闻资讯start*/
+.dynamic_left_head{
+    position: relative;
+    margin-bottom: 50px;
+}
+.dynamic_left_head_h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #34AAE2;
+}
+.dynamic_left_head_line{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    display: block;
+    width:150px;
+    height: 1px;
+    border-top: 2px solid #34AAE2;
+    margin-bottom: 10px;
+}
+.dynamic_left_head_p{
+    padding-top: 10px;
+    padding-left: 55px;
+    border-top: #25A9E0;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 900;
+}
+/*新闻资讯end*/
+.dynamic_left_l{
+    width: 280px;
+    height: 415px;
+    /*border: 1px solid gold;*/
+    margin-right: 25px;
+}
+.dynamic_left_r{
+    width: 280px;
+    height: 415px;
+    /*border: 1px solid green;*/
+}
+.dynamic_left_btn{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+.dynamic_left_img{
+    height: 164px;
+    background-color: #25A9E0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dynamic_left_context{
+    padding-left: 20px;
+    margin-bottom: 0;
+    line-height: 170%;
+}
+.dynamic_left_context li{
+    list-style: circle;
+}
+.dynamic_left_context li a{
+    color: #808080;
+}
+.dynamic_left_context li a:hover{
+    color: #25A9E0;
+}
+/*动态右*/
+.dynamic_right{
+    width: 470px;
+    height: 540px;
+    /*border: 1px solid red;*/
+}
+/*诊断平台start*/
+.dynamic_right_head{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.dynamic_right_head_h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #34AAE2;
+}
+.dynamic_right_head_line{
+    display: block;
+    margin: 4px 10px 5px 95px ;
+    width:275px;
+    height: 1px;
+    border-top: 2px solid #34AAE2;
+}
+.dynamic_right_head_p{
+    text-align: center;
+    border-top: #25A9E0;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 900;
+}
+.dynamic_right_pingtai{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.dynamic_right_text{
+    text-indent:2em;
+    color: #676767;
+    font-weight: 100;
+    padding: 0 15px;
+}
+/*诊断平台end*/
+/*动态结束*/
+
+/*关于我们开始*/
+.about{
+    height: 525px;
+    background-color: #52C8E6;
+    margin-bottom: 50px;
+}
+.about_head{
+   margin-top: 28px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.about_head_h{
+    color: white;
+}
+.about_all{
+    height: 300px;
+    /*border: 1px solid #000;*/
+}
+.about_left{
+    margin-right: 65px;
+}
+.about_center{
+    width: 104px;
+    height: 100%;
+    /*border: 1px solid #000;*/
+    margin-right: 65px;
+}
+.about_center_top{
+    width: 100px;
+    height: 25px;
+    border: 2px solid white;
+}
+.about_center_top:hover{
+    background-color: #0ea0db;
+}
+.about_img{
+    padding-top: 15px;
+}
+.about_center_btm{
+    width: 100px;
+    height: 25px;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+.about_center_btm:hover{
+    background-color: #0ea0db;
+}
+.about_right{
+    width: 415px;
+    height: 100%;
+    /*border: 1px solid #000;*/
+    text-align: center;
+}
+.about_right_h4{
+    color: white;
+}
+.about_right_p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    text-indent: 2em;
+}
+/*关于我们结束*/
+
+/*试剂展示开始*/
+.reagent{
+    height: 750px;
+    /*border: 1px solid #000;*/
+    margin-bottom: 60px;
+}
+.reagent_head{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.reagent_head_h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #34AAE2;
+}
+.reagent_head_p{
+    text-align: center;
+    border-top: #25A9E0;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 900;
+}
+
+.reagent_nav{
+    width: 100%;
+    height: 50px;
+    /*border: 1px solid #E4E4E4;*/
+    padding-left: 200px;
+    margin-bottom: 65px;
+}
+.reagent_nav_div{
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-left:1px solid #E4E4E4 ;
+    cursor:pointer;
+}
+.reagent_nav_div:hover{
+    background-color:#34AAE2 ;
+    color: white;
+}
+.reagent_show{
+    width: 100%;
+    height: 375px;
+    /*border: 1px solid #000;*/
+    margin-bottom: 50px;
+}
+.reagent_show_all{
+    width: 235px;
+    height: 100%;
+    border: 1px solid #E4E4E4;
+    margin-left: 3px;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+}
+.reagent_show_all img{
+    width: 182px;
+    height: 234px;
+}
+.reagent_btn{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #E4E4E4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.reagent_btn:hover{
+    color: white;
+    background-color: #0ea0db;
+}
+/*遮罩层start*/
+.reagent_cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(127,127,127,.8);
+    text-align: center;
+    display: none;
+}
+.reagent_cover_h3{
+    color: white;
+}
+.reagent_cover_p{
+    text-align: left;
+    padding: 0 10px;
+    font-size: 14px;
+    text-indent:2em;
+    font-weight: 400;
+}
+/*遮罩层end*/
+.reagent_other{
+    width: 200px;
+    height: 47px;
+    border: 1px solid #9E9E9E;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+}
+.reagent_other a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #666666;
+}
+.reagent_other a:hover{
+    color: white;
+    background-color: #0ea0db;
+}
+/*试剂展示结束*/
+
+/*底部开始*/
+.footer{
+    background-color: #25A9E0;
+    height: 310px;
+    padding-top: 20px;
+}
+.footer_top{
+    height: 190px;
+    /*border: 1px solid #000;*/
+    margin-bottom: 45px;
+}
+.footer_top_left{
+    width: 720px;
+    height: 100%;
+    /*border: 1px solid red;*/
+    padding-left: 60px;
+}
+.footer_top_left_all{
+    width: 95px;
+    margin-right: 70px;
+}
+.footer_top_left_all h4{
+    display: block;
+    width: 95px;
+    text-align: center;
+    border-bottom: 1px solid #67C3EA;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer_top_left_all li{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer_top_left_all li a{
+    color: white;
+    font-size: 14px;
+}
+.footer_top_left_all li a:hover{
+    color: black;
+}
+
+.footer_top_right{
+    width: 320px;
+    height: 100%;
+    /*border: 1px solid #000;*/
+    padding-left: 25px;
+}
+.footer_top_right h4{
+    color: white;
+}
+.footer_top_right p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer_btn{
+    height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+/*底部结束*/
