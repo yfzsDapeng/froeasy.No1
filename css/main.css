@@ -1,31 +1,31 @@
-.w{
-    width: 1200px;
-    margin: 0 auto;
-}
-.fl{
-    float: left;
-}
-.fr{
-    float: right;
-}
 /*导航开始*/
 .nav{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 115px;
+    height: 100px;
     z-index: 2;
     background-color: whitesmoke;
 }
-.a{
-    background-color: #0c8ec3;
-}
+
 .nav .nav_logo{
+    z-index: 5;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 50px;
     width: 128px;
-    margin-top: 15px;
-    margin-left: 50px;
+    height: 80px;
+    line-height: 80px;
+    /*background-color: #00afe1;*/
 }
+.nav .nav_logo img{
+    position: absolute;
+    width: 128px;
+}
+
+
 .nav .nav_ul {
     display: block;
     width: 100%;
@@ -37,23 +37,18 @@
 .nav .nav_ul li{
     display: inline-block;
     float: left;
-    height: 115px;
-    line-height: 115px;
+    height: 100px;
+    line-height: 100px;
     margin-left: 20px;
     margin-right: 20px;
 }
 .nav .nav_ul li a{
     display: block;
     height: 90px;
-    line-height: 115px;
+    line-height: 100px;
     font-size: 18px;
     color: #666666;
-    font-weight: 900;
     font-family: "Microsoft YaHei";
-}
-.active{
-    color: #24AAE0;
-    border-bottom: 2px solid #24AAE0;
 }
 .nav .nav_ul li a:hover{
     color: #24AAE0;
@@ -62,52 +57,25 @@
 .nav_tel{
     position: absolute;
     right: 50px;
-    top: 20px;
+    top: 10px;
     color: #333333;
     font-size:24px;
-    font-weight: 900;
+    line-height: 40px;
 }
 /*导航结束*/
 
 /*展示图开始*/
-.center_img {
-    background-image: url("../img/center_img.png");
-    background-size: 100% 100%;
-    margin-top:115px;
+.center_img img{
+    width: 100%;
     height: 630px;
 }
 /*展示图结束*/
 
 /*设备展示开始*/
-.head1{
-    display: block;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: "Microsoft YaHei";
-}
-.head_h2a{
-    color: #25A9E0;
-    font-weight: bold;
-    font-size: 34px;
-}
-.head_line1{
-    display: block;
-    margin: 0 auto;
-    width:  420px;
-    height: 1px;
-    border-top: 2px solid #E4E4E4;
-    padding-bottom: 10px;
-}
-.head_p1{
-    font-size: 24px;
-    color: #333333;
-    font-weight:bold;
-}
 .equipment{
     margin-bottom: 100px;
 }
-.equipment_showall{
+.equipment_show_all{
     margin-bottom: 100px;
     height: 500px;
 }
@@ -162,7 +130,6 @@
 .advantages{
     height: 585px;
     background-color: #52C8E6;
-    margin-bottom: 80px;
 }
 .advantages_box{
     width: 170px;
@@ -194,7 +161,7 @@
 /*动态开始*/
 .dynamic{
     height: 545px;
-    margin-bottom: 65px;
+    margin-bottom: 100px;
 }
 /*动态左*/
 .dynamic_left{
@@ -206,32 +173,21 @@
 /*新闻资讯start*/
 .dynamic_left_head{
     position: relative;
-    margin-bottom: 50px;
 }
-.dynamic_left_head_h3{
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #34AAE2;
-    font-size: 34px;
-    font-weight: bold;
+.dynamic_left_head_h2{
+    text-align: left;
 }
 .dynamic_left_head_line{
     position: absolute;
     top: 30px;
-    display: block;
     width:240px;
     height: 1px;
-    border-top: 2px solid #E4E4E4;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 .dynamic_left_head_p{
+    text-align: left;
     padding-top: 10px;
     padding-left: 55px;
-    border-top: #25A9E0;
-    font-size: 24px;
-    color: #333333;
-    font-weight: bold;
 }
 /*新闻资讯end*/
 .dynamic_left_l{
@@ -280,36 +236,6 @@
     /*border: 1px solid red;*/
 }
 /*诊断平台start*/
-.dynamic_right_head{
-    position: relative;
-    margin-bottom: 95px;
-    text-align: center;
-}
-.dynamic_right_head_h3{
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #34AAE2;
-    font-size: 34px;
-    font-weight: bold;
-}
-.dynamic_right_head_line{
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    display: block;
-    width:405px;
-    height: 1px;
-    border-top: 2px solid #E4E4E4;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.dynamic_right_head_p{
-    padding-top: 10px;
-    border-top: #25A9E0;
-    font-size: 24px;
-    color: #333333;
-    font-weight: bold;
-}
 .dynamic_right_pingtai{
     text-align: center;
     margin-bottom: 32px;
@@ -325,37 +251,13 @@
 
 /*关于我们开始*/
 .about{
-    height: 525px;
+    height: 550px;
     background-color: #52C8E6;
-    margin-bottom: 50px;
-}
-.about_head{
-    display: block;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 45px;
-    font-family: "Microsoft YaHei";
-}
-.about_head_h{
-    color: white;
-    font-size: 34px;
-    font-weight: bold;
+    margin-bottom: 30px;
 }
 .about_head_line{
-    display: block;
-    margin: 0 auto;
     width:180px;
-    height: 1px;
-    border-top: 2px solid #A5D8E4;
-    padding-bottom: 10px;
 }
-.about_head_p{
-    border-top: white;
-    font-size: 24px;
-    color: white;
-    font-weight: bold;
-}
-
 .about_all{
     height: 300px;
     /*border: 1px solid #000;*/
@@ -394,9 +296,9 @@
     height: 100%;
     /*border: 1px solid #000;*/
     text-align: center;
+    color: white;
 }
 .about_right_h4{
-    color: white;
     font-size: 20px;
     font-weight: bold;
 }
@@ -414,34 +316,9 @@
     /*border: 1px solid #000;*/
     margin-bottom: 60px;
 }
-
-.reagent_head{
-    display: block;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 45px;
-    font-family: "Microsoft YaHei";
-}
-.reagent_head_h3{
-    color: #39A9E3;
-    font-size: 34px;
-    font-weight: bold;
-}
 .reagent_head_line{
-    display: block;
-    margin: 0 auto;
     width:330px;
-    height: 1px;
-    border-top: 2px solid #E4E4E4;
-    padding-bottom: 10px;
 }
-.reagent_head_p{
-    border-top: white;
-    font-size: 24px;
-    color:black;
-    font-weight: bold;
-}
-
 .reagent_nav{
     /*width: 100%;*/
     height: 50px;
@@ -509,6 +386,7 @@
 }
 .reagent_cover_h3{
     color: white;
+    font-size: 16px;
 }
 .reagent_cover_p{
     text-align: left;

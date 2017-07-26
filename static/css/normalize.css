@@ -406,20 +406,45 @@ ol, ul, li {
 }
 
 /*公用的*/
-.head{
+/*head_one 白色背景*/
+.head_one{
   display: block;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   font-family: "Microsoft YaHei";
-  font-weight: bold;
 }
-.head_h2{
+.head_one_h2{
+  color: #25A9E0;
+  font-weight: bold;
+  font-size: 34px;
+}
+.head_one_line{
+  display: block;
+  margin: 0 auto;
+  width:  420px;
+  height: 1px;
+  border-top: 2px solid #E4E4E4;
+  padding-bottom: 10px;
+}
+.head_one_p{
+  font-size: 24px;
+  color: #333333;
+}
+/*head_two 蓝色背景*/
+.head_two{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Microsoft YaHei";
+}
+.head_two_h2{
   color: white;
   font-size: 34px;
   font-weight: bold;
 }
-.head_line{
+.head_two_line{
   display: block;
   margin: 0 auto;
   width:230px;
@@ -427,9 +452,20 @@ ol, ul, li {
   border-top: 2px solid #A5D8E4;
   padding-bottom: 10px;
 }
-p{
+.head_two_p{
   border-top: white;
   font-size: 24px;
   color: white;
-  font-weight: bold;
+}
+
+/*版心*/
+.w{
+  width: 1200px;
+  margin: 0 auto;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
 }
