@@ -46,6 +46,7 @@
     font-size: 18px;
     color: #666666;
     font-weight: 900;
+    font-family: "Microsoft YaHei";
 }
 .nav .nav_ul li a:hover{
     color: #24AAE0;
@@ -62,11 +63,11 @@
 /*导航结束*/
 
 /*展示图开始*/
-.center_img img{
-    margin-top: 90px;
-    display: inline-block;
-    height: auto;
-    max-width: 100%;
+.center_img {
+    background-image: url("../img/center_img.png");
+    background-size: 100% 100%;
+    margin-top:115px;
+    height: 630px;
 }
 /*展示图结束*/
 
@@ -76,26 +77,32 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: "Microsoft YaHei";
 }
 .head_h2a{
     color: #25A9E0;
+    font-weight: bold;
+    font-size: 34px;
 }
 .head_line1{
     display: block;
     margin: 0 auto;
-    width:150px;
+    width:  420px;
     height: 1px;
-    border-top: 2px solid #25A9E0;
+    border-top: 2px solid #E4E4E4;
     padding-bottom: 10px;
 }
 .head_p1{
-    border-top: #25A9E0;
-    font-size: 16px;
+    font-size: 24px;
     color: #333333;
-    font-weight: 900;
+    font-weight:bold;
 }
 .equipment{
     margin-bottom: 100px;
+}
+.equipment_showall{
+    margin-bottom: 100px;
+    height: 500px;
 }
 .equipment_show{
     height: 500px;
@@ -115,10 +122,31 @@
     background-color:#666666;
     opacity: .7;
     color: white;
-    font-size: 16px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight:bold;
 }
 .equipment_show_btn:hover{
+    background-color: #0ea0db;
+}
+.equipment_other{
+    width: 200px;
+    height: 47px;
+    border: 1px solid #9E9E9E;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+}
+.equipment_other a{
+    font-family: "Microsoft YaHei";
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #666666;
+}
+.equipment_other a:hover{
+    color: white;
     background-color: #0ea0db;
 }
 /*设备展示结束*/
@@ -134,7 +162,7 @@
     height: 170px;
     background-color: white;
     border-radius: 50%;
-    line-height: 180px;
+    line-height: 170px;
     text-align: center;
     margin-left: 50px;
     position: relative;
@@ -143,11 +171,16 @@
     position: absolute;
     left: 60px;
     top:120px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
 }
 .advantages_box_text{
     position: relative;
     left: 0;
     top: 0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
 }
 /*我们的优势结束*/
 
@@ -172,24 +205,26 @@
     margin-top: 0;
     margin-bottom: 0;
     color: #34AAE2;
+    font-size: 34px;
+    font-weight: bold;
 }
 .dynamic_left_head_line{
     position: absolute;
     top: 30px;
-    left: 10px;
     display: block;
-    width:150px;
+    width:240px;
     height: 1px;
-    border-top: 2px solid #34AAE2;
+    border-top: 2px solid #E4E4E4;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .dynamic_left_head_p{
     padding-top: 10px;
     padding-left: 55px;
     border-top: #25A9E0;
-    font-size: 16px;
+    font-size: 24px;
     color: #333333;
-    font-weight: 900;
+    font-weight: bold;
 }
 /*新闻资讯end*/
 .dynamic_left_l{
@@ -206,7 +241,8 @@
 .dynamic_left_btn{
     margin-top: 0;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight:bold;
+    font-size: 18px;
     color: #333333;
 }
 .dynamic_left_img{
@@ -225,6 +261,7 @@
 }
 .dynamic_left_context li a{
     color: #808080;
+    font-size: 14px;
 }
 .dynamic_left_context li a:hover{
     color: #25A9E0;
@@ -237,27 +274,34 @@
 }
 /*诊断平台start*/
 .dynamic_right_head{
+    position: relative;
+    margin-bottom: 95px;
     text-align: center;
-    margin-bottom: 90px;
 }
 .dynamic_right_head_h3{
     margin-top: 0;
     margin-bottom: 0;
     color: #34AAE2;
+    font-size: 34px;
+    font-weight: bold;
 }
 .dynamic_right_head_line{
+    position: absolute;
+    top: 30px;
+    left: 30px;
     display: block;
-    margin: 4px 10px 5px 95px ;
-    width:275px;
+    width:405px;
     height: 1px;
-    border-top: 2px solid #34AAE2;
+    border-top: 2px solid #E4E4E4;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .dynamic_right_head_p{
-    text-align: center;
+    padding-top: 10px;
     border-top: #25A9E0;
-    font-size: 16px;
+    font-size: 24px;
     color: #333333;
-    font-weight: 900;
+    font-weight: bold;
 }
 .dynamic_right_pingtai{
     text-align: center;
@@ -266,8 +310,8 @@
 .dynamic_right_text{
     text-indent:2em;
     color: #676767;
-    font-weight: 100;
-    padding: 0 15px;
+    padding: 0 55px;
+    font-size: 14px;
 }
 /*诊断平台end*/
 /*动态结束*/
@@ -279,13 +323,31 @@
     margin-bottom: 50px;
 }
 .about_head{
-   margin-top: 28px;
+    display: block;
     text-align: center;
-    margin-bottom: 36px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
 }
 .about_head_h{
     color: white;
+    font-size: 34px;
 }
+.about_head_line{
+    display: block;
+    margin: 0 auto;
+    width:180px;
+    height: 1px;
+    border-top: 2px solid #A5D8E4;
+    padding-bottom: 10px;
+}
+.about_head_p{
+    border-top: white;
+    font-size: 24px;
+    color: white;
+}
+
 .about_all{
     height: 300px;
     /*border: 1px solid #000;*/
@@ -305,7 +367,7 @@
     border: 2px solid white;
 }
 .about_center_top:hover{
-    background-color: #0ea0db;
+    background-color: white;
 }
 .about_img{
     padding-top: 15px;
@@ -317,7 +379,7 @@
     margin-top: 20px;
 }
 .about_center_btm:hover{
-    background-color: #0ea0db;
+    background-color: white;
 }
 .about_right{
     width: 415px;
@@ -327,6 +389,8 @@
 }
 .about_right_h4{
     color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 .about_right_p{
     text-align: left;
@@ -342,28 +406,38 @@
     /*border: 1px solid #000;*/
     margin-bottom: 60px;
 }
+
 .reagent_head{
+    display: block;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
 }
 .reagent_head_h2{
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #34AAE2;
+    color: #39A9E3;
+    font-size: 34px;
+}
+.reagent_head_line{
+    display: block;
+    margin: 0 auto;
+    width:330px;
+    height: 1px;
+    border-top: 2px solid #E4E4E4;
+    padding-bottom: 10px;
 }
 .reagent_head_p{
-    text-align: center;
-    border-top: #25A9E0;
-    font-size: 16px;
-    color: #333333;
-    font-weight: 900;
+    border-top: white;
+    font-size: 24px;
+    color:black;
 }
 
 .reagent_nav{
-    width: 100%;
+    /*width: 100%;*/
     height: 50px;
-    /*border: 1px solid #E4E4E4;*/
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
     padding-left: 200px;
     margin-bottom: 65px;
 }
@@ -372,6 +446,7 @@
     height: 50px;
     line-height: 50px;
     text-align: center;
+    font-size: 16px;
     border-left:1px solid #E4E4E4 ;
     cursor:pointer;
 }
@@ -406,6 +481,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    font-size: 16px;
 }
 .reagent_btn:hover{
     color: white;
@@ -483,6 +559,7 @@
     border-bottom: 1px solid #67C3EA;
     padding-bottom: 10px;
     color: white;
+    font-size: 16px;
 }
 .footer_top_left_all li{
     margin-bottom: 10px;
@@ -490,7 +567,7 @@
 }
 .footer_top_left_all li a{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 }
 .footer_top_left_all li a:hover{
     color: black;
@@ -504,6 +581,7 @@
 }
 .footer_top_right h4{
     color: white;
+    font-size: 16px;
 }
 .footer_top_right p{
     font-size: 12px;
