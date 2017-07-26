@@ -18,6 +18,9 @@
     z-index: 2;
     background-color: whitesmoke;
 }
+.a{
+    background-color: #0c8ec3;
+}
 .nav .nav_logo{
     width: 128px;
     margin-top: 15px;
@@ -47,6 +50,10 @@
     color: #666666;
     font-weight: 900;
     font-family: "Microsoft YaHei";
+}
+.active{
+    color: #24AAE0;
+    border-bottom: 2px solid #24AAE0;
 }
 .nav .nav_ul li a:hover{
     color: #24AAE0;

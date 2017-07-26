@@ -1,0 +1,134 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*导航开始*/
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 115px;
+    z-index: 2;
+    background-color: whitesmoke;
+}
+.a{
+    background-color: #0c8ec3;
+}
+.nav .nav_logo{
+    width: 128px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.nav .nav_ul {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 210px;
+    position: relative;
+    margin-bottom: 0;
+}
+.nav .nav_ul li{
+    display: inline-block;
+    float: left;
+    height: 115px;
+    line-height: 115px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav .nav_ul li a{
+    display: block;
+    height: 90px;
+    line-height: 115px;
+    font-size: 18px;
+    color: #666666;
+    font-weight: 900;
+    font-family: "Microsoft YaHei";
+}
+.active{
+    color: #24AAE0;
+    border-bottom: 2px solid #24AAE0;
+}
+.nav .nav_ul li a:hover{
+    color: #24AAE0;
+    border-bottom: 2px solid #24AAE0;
+}
+.nav_tel{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    color: #333333;
+    font-size:24px;
+    font-weight: 900;
+}
+/*导航结束*/
+
+/*底部开始*/
+.footer{
+    background-color: #25A9E0;
+    height: 310px;
+    padding-top: 20px;
+}
+.footer_top{
+    height: 190px;
+    /*border: 1px solid #000;*/
+    margin-bottom: 45px;
+}
+.footer_top_left{
+    width: 720px;
+    height: 100%;
+    /*border: 1px solid red;*/
+    padding-left: 60px;
+}
+.footer_top_left_all{
+    width: 95px;
+    margin-right: 70px;
+}
+.footer_top_left_all h4{
+    display: block;
+    width: 95px;
+    text-align: center;
+    border-bottom: 1px solid #67C3EA;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 16px;
+}
+.footer_top_left_all li{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer_top_left_all li a{
+    color: white;
+    font-size: 12px;
+}
+.footer_top_left_all li a:hover{
+    color: black;
+}
+
+.footer_top_right{
+    width: 320px;
+    height: 100%;
+    /*border: 1px solid #000;*/
+    padding-left: 25px;
+}
+.footer_top_right h4{
+    color: white;
+    font-size: 16px;
+}
+.footer_top_right p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer_btn{
+    height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+/*底部结束*/
