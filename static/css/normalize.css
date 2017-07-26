@@ -417,6 +417,7 @@ ol, ul, li {
 .head_h2{
   color: white;
   font-size: 34px;
+  font-weight: bold;
 }
 .head_line{
   display: block;
@@ -430,4 +431,5 @@ p{
   border-top: white;
   font-size: 24px;
   color: white;
+  font-weight: bold;
 }

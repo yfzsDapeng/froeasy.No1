@@ -328,11 +328,11 @@
     margin-top: 50px;
     margin-bottom: 45px;
     font-family: "Microsoft YaHei";
-    font-weight: bold;
 }
 .about_head_h{
     color: white;
     font-size: 34px;
+    font-weight: bold;
 }
 .about_head_line{
     display: block;
@@ -346,6 +346,7 @@
     border-top: white;
     font-size: 24px;
     color: white;
+    font-weight: bold;
 }
 
 .about_all{
@@ -413,11 +414,11 @@
     margin-top: 50px;
     margin-bottom: 45px;
     font-family: "Microsoft YaHei";
-    font-weight: bold;
 }
-.reagent_head_h2{
+.reagent_head_h3{
     color: #39A9E3;
     font-size: 34px;
+    font-weight: bold;
 }
 .reagent_head_line{
     display: block;
@@ -431,6 +432,7 @@
     border-top: white;
     font-size: 24px;
     color:black;
+    font-weight: bold;
 }
 
 .reagent_nav{
