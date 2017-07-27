@@ -1,140 +1,148 @@
-/*导航开始*/
-.nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    z-index: 2;
-    background-color: whitesmoke;
-}
-.nav .nav_logo{
-    z-index: 5;
-    display: block;
-    position: absolute;
-    top: 15px;
-    left: 50px;
-    width: 128px;
-    height: 80px;
-    line-height: 80px;
-    /*background-color: #00afe1;*/
-}
-.nav .nav_logo img{
-    position: absolute;
-    width: 128px;
-}
-.nav .nav_ul {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding-left: 210px;
-    position: relative;
-    margin-bottom: 0;
-}
-.nav .nav_ul li{
-    display: inline-block;
-    float: left;
-    height: 100px;
-    line-height: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.nav .nav_ul li a{
-    display: block;
-    height: 90px;
-    line-height: 100px;
-    font-size: 18px;
-    color: #666666;
-    font-family: "Microsoft YaHei";
-}
-.nav .nav_ul li a:hover{
-    color: #24AAE0;
-    border-bottom: 2px solid #24AAE0;
-}
-.nav_tel{
-    position: absolute;
-    right: 50px;
-    top: 10px;
-    color: #333333;
-    font-size:24px;
-    line-height: 40px;
-}
-/*导航结束*/
-
 /*中心图开始*/
 .home_center{
-    width: 100%;
-    height: 100%;
-    background-color: #00afe1;
+    margin-top: 100px;
+    width: 100% ;
+    margin-bottom:80px;
 }
-.home_center img{
-    width: 100%;
-    height: 350px;
-}
-
 /*中心图结束*/
 
-
-/*底部开始*/
-.footer{
-    background-color: #25A9E0;
-    height: 310px;
-    padding-top: 20px;
-}
-.footer_top{
-    height: 190px;
-    /*border: 1px solid #000;*/
-    margin-bottom: 45px;
-}
-.footer_top_left{
-    width: 720px;
-    height: 100%;
+/*公司内容开始*/
+.home_content{
+    height:595px;
     /*border: 1px solid red;*/
-    padding-left: 60px;
+    margin-bottom: 70px;
 }
-.footer_top_left_all{
-    width: 95px;
-    margin-right: 70px;
+.home_content .home_content_tab{
+    padding: 0 100px;
+    overflow: hidden;
 }
-.footer_top_left_all h4{
-    display: block;
-    width: 95px;
+.home_content .home_content_tab a{
+    display:block;
+    float: left;
+    width: 230px;
+    height: 50px;
+    line-height: 50px;
+    margin:0px 40px;
+    font-size: 18px;
+    text-decoration:none;
+    color:#3A3A37;
     text-align: center;
-    border-bottom: 1px solid #67C3EA;
-    padding-bottom: 10px;
-    color: white;
+}
+.home_content .home_content_tab a:hover{
+    background:#25A9E0;
+    color:#FCFFFC;
+    border-radius: 5px;
+    text-decoration:none;
+}
+.about_left{
+    margin-right: 50px;
+}
+.about_left img{
+    width: 395px;
+}
+.about_right_p{
+    line-height: 19px;
+    color: #393939;
     font-size: 16px;
+    width: 760px;
 }
-.footer_top_left_all li{
-    margin-bottom: 10px;
+/*公司内容结束*/
+
+/*企业历程开始*/
+.home_process{
+    height: 500px;
+    background-image: url("../img/starting_point.png");
+    margin-bottom: 70px;
+    padding-top: 1px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.home_process_head{
+    margin-top: 29px;
+}
+.home_process_line{
+    width: 330px;
+}
+.home_process_text{
+    font-size: 14px;
     text-align: center;
+    color: #ECF9FD;
 }
-.footer_top_left_all li a{
-    color: white;
-    font-size: 12px;
+/*企业历程结束*/
+
+/*企业文化开始*/
+.home_culture{
+    height: 645px;
+    margin-bottom: 50px;
 }
-.footer_top_left_all li a:hover{
-    color: black;
+.home_culture_head{
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.home_culture_head_h2{
+    margin-top: 0;
+}
+.home_culture_head_line{
+    width: 370px;
 }
 
-.footer_top_right{
-    width: 320px;
-    height: 100%;
-    /*border: 1px solid #000;*/
-    padding-left: 25px;
+.home_culture_center{
+    height: 300px;
+    margin-bottom: 60px;
 }
-.footer_top_right h4{
+.home_culture_center div{
+    width: 360px;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #15B7FD;
+    margin-right: 58px;
+    border-radius: 5px;
+    position: relative;
+}
+.home_culture_center .home_culture_center_btn{
+    position: absolute;
+    bottom: 0;
+    width: 360px;
+    height: 60px;
+    line-height: 60px;
+    border: none;
+    background-color: rgba(105, 103, 103, 0.7);
     color: white;
-    font-size: 16px;
-}
-.footer_top_right p{
-    font-size: 12px;
-    font-weight: 500;
-}
-.footer_btn{
-    height: 50px;
+    font-size: 24px;
     text-align: center;
-    color: white;
-    line-height: 50px;
 }
-/*底部结束*/
+
+.home_culture_university{
+    width: 100%;
+    height: 120px;
+    border-top: 1px solid  #E4E4E4;
+    border-bottom:1px solid #E4E4E4 ;
+
+}
+.home_culture_university ul{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 160px;
+}
+.home_culture_university ul li{
+    float: left;
+    height: 120px;
+    line-height: 120px;
+    padding: 0 40px;
+}
+.home_left{
+    display: block;
+    margin-left: 80px;
+    height: 120px;
+    line-height: 120px;
+}
+.home_right{
+    display: block;
+    margin-right: 80px;
+    height: 120px;
+    line-height: 120px;
+}
+/*企业文化结束*/
