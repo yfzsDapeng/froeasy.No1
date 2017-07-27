@@ -8,31 +8,41 @@
 
 /*公司内容开始*/
 .home_content{
-    height:595px;
+    height:100%;
     /*border: 1px solid red;*/
     margin-bottom: 70px;
 }
 .home_content .home_content_tab{
-    padding: 0 100px;
+    width: 1200px;
     overflow: hidden;
+    padding-left: 350px;
 }
-.home_content .home_content_tab a{
+.home_content .home_content_tab div{
     display:block;
     float: left;
     width: 230px;
     height: 50px;
     line-height: 50px;
-    margin:0px 40px;
+    margin-right: 40px;
     font-size: 18px;
     text-decoration:none;
     color:#3A3A37;
     text-align: center;
+    cursor:pointer
 }
-.home_content .home_content_tab a:hover{
+.hometive{
     background:#25A9E0;
-    color:#FCFFFC;
+    color:#FCFFFC !important;
     border-radius: 5px;
     text-decoration:none;
+}
+
+/*公司简介*/
+.home_content_textOne{
+    /*display: none;*/
+}
+.home_content_textTwo{
+    display: none;
 }
 .about_left{
     margin-right: 50px;
@@ -46,12 +56,72 @@
     font-size: 16px;
     width: 760px;
 }
+
+
+/*公司荣誉*/
+
+/*企业荣誉*/
+.honor_head_line{
+    width: 350px;
+}
+.honor_head{
+    margin-bottom: 70px;
+}
+
+/*企业荣誉图片*/
+.honor_all{
+    height: 520px;
+    /*border: 1px solid #000;*/
+    margin-bottom: 70px;
+}
+.honor_all_top{
+    width: 100%;
+    height: 220px;
+    margin-bottom:80px;
+}
+.honor_all_top div{
+    width: 330px;
+    height: 220px;
+    border: 1px solid #15B6FF;
+    float: left;
+    margin-right: 105px;
+}
+
+.honor_all_btn{
+    width: 100%;
+    height: 220px;
+}
+.honor_all_btn div{
+    width: 330px;
+    height: 220px;
+    border: 1px solid #15B6FF;
+    float: left;
+    margin-right: 105px;
+}
+
+/*企业成就*/
+.achievement_head_line{
+    width: 470px;
+}
+.achievement_all{
+    height: 250px;
+    margin-bottom: 70px;
+}
+.achievement_all div{
+    width: 180px;
+    height: 250px;
+    border: 1px solid #15B6FF;
+    float: left;
+    margin-right: 75px;
+}
+
+
 /*公司内容结束*/
 
 /*企业历程开始*/
 .home_process{
     height: 500px;
-    background-image: url("../img/starting_point.png");
+    background-image: url("../img/starting_point .png");
     margin-bottom: 70px;
     padding-top: 1px;
     padding-left: 35px;
@@ -109,7 +179,7 @@
     border: none;
     background-color: rgba(105, 103, 103, 0.7);
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
 }
 

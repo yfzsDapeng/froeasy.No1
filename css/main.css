@@ -51,6 +51,10 @@
     color: #24AAE0;
     border-bottom: 2px solid #24AAE0;
 }
+.active{
+    color: #24AAE0 !important ;
+    border-bottom: 2px solid #24AAE0;
+}
 .nav_tel{
     position: absolute;
     right: 50px;
@@ -96,7 +100,6 @@
     opacity: .7;
     color: white;
     font-size: 24px;
-    font-weight:bold;
 }
 .equipment_show_btn:hover{
     background-color: #0ea0db;
@@ -133,6 +136,7 @@
     width: 170px;
     height: 170px;
     background-color: white;
+    color: white;
     border-radius: 50%;
     line-height: 170px;
     text-align: center;
@@ -381,9 +385,10 @@
     background-color: rgba(127,127,127,.8);
     text-align: center;
     display: none;
+    color: white;
 }
 .reagent_cover_h3{
-    color: white;
+
     font-size: 16px;
 }
 .reagent_cover_p{
@@ -464,9 +469,12 @@
     height: 100%;
     /*border: 1px solid #000;*/
     padding-left: 25px;
+    color: white;
+}
+.footer_top_right span{
+    margin-right: 10px;
 }
 .footer_top_right h4{
-    color: white;
     font-size: 16px;
 }
 .footer_top_right p{

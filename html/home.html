@@ -20,7 +20,7 @@
             <img  src="../img/logo.png" alt="">
         </a>
         <ul class="nav_ul">
-            <li><a href="html/home.html" target="_blank">关于福怡</a></li>
+            <li><a href="html/home.html" target="_blank" class="active">关于福怡</a></li>
             <li><a href="#product">产品与服务</a></li>
             <li><a href="#pricing">临床应用</a></li>
             <li><a href="#news">新闻动态</a></li>
@@ -43,11 +43,12 @@
     <!--公司内容开始-->
     <div class="home_content w">
         <div class="home_content_tab">
-            <a href="#" class="on">公司简介</a>
-            <a href="#">公司荣誉</a>
-            <a href="#">质量及专利</a>
+            <div id="home_content_tab_one" class="homeclass hometive">公司简介</div>
+            <div id="home_content_tab_two" class="homeclass " >公司荣誉</div>
         </div>
-        <div class="home_content_text">
+
+        <!--公司简介-->
+        <div class="home_content_textOne">
                 <div class="head_one">
                     <h2 class="head_one_h2">ABOUT US</h2>
                     <span class="head_one_line about_head_line"></span>
@@ -66,6 +67,44 @@
                 </div>
             </div>
         </div>
+
+        <!--公司荣誉-->
+        <div class="home_content_textTwo">
+
+            <!--企业荣誉-->
+            <div class="head_one honor_head">
+                <h2 class="head_one_h2">ENTERPRISE HONOR</h2>
+                <span class="head_one_line honor_head_line"></span>
+                <p class="head_one_p">企业荣誉</p>
+            </div>
+            <div class="honor_all w">
+                <div class="honor_all_top">
+                    <div><img src="" alt=""></div>
+                    <div><img src="" alt=""></div>
+                    <div style="margin-right: 0"><img src="" alt=""></div>
+                </div>
+                <div class="honor_all_btn">
+                    <div><img src="" alt=""></div>
+                    <div><img src="" alt=""></div>
+                    <div style="margin-right: 0"><img src="" alt=""></div>
+                </div>
+            </div>
+
+            <!--企业成就-->
+            <div class="head_one honor_head">
+                <h2 class="head_one_h2">ENTERPRISE ACHIEVEMENT</h2>
+                <span class="head_one_line achievement_head_line"></span>
+                <p class="head_one_p">企业成就</p>
+            </div>
+            <div class="achievement_all w">
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div style="margin-right: 0"><img src="" alt=""></div>
+            </div>
+
+        </div>
     </div>
     <!--公司内容结束-->
 
@@ -76,7 +115,7 @@
             <span class="head_two_line home_process_line"></span>
             <p class="head_two_p">企业历程</p>
         </div>
-        <p class="home_process_text">南京辅以科技发展股份有限公司致力于让中国四千名病理医生满足15亿人的病理需求，为了这个梦想，从研发标准化前处理的染片机、到数字病理智能诊断系统、到数字病理远程诊断系统、到数字病理智能诊断云平台的建设，一步一个脚印，踏实前行！</p>
+        <p class="home_process_text">南京福怡科技发展股份有限公司致力于让中国四千名病理医生满足15亿人的病理需求，为了这个梦想，从研发标准化前处理的染片机、到数字病理智能诊断系统、到数字病理远程诊断系统、到数字病理智能诊断云平台的建设，一步一个脚印，踏实前行！</p>
     </div>
     <!--企业历程结束-->
 
@@ -168,5 +207,6 @@
 <script src="../static/js/jquery-2.1.1.min.js"></script>
 <script src="../static/js/bootstrap.min.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/home.js"></script>
 </html>
 
