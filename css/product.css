@@ -1,0 +1,139 @@
+/*设备展示&系统展示     开始*/
+.product_show{
+    height:100%;
+    margin-bottom: 70px;
+}
+/*切换按钮*/
+.product_show_tab{
+    width: 1200px;
+    overflow: hidden;
+    padding-left: 350px;
+}
+.product_show_tab div{
+    float: left;
+    width: 230px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 40px;
+    font-size: 18px;
+    text-decoration:none;
+    color:#3A3A37;
+    text-align: center;
+    cursor:pointer
+}
+/*end*/
+
+/*设备展示    product_show_textOne  start*/
+
+/*头部*/
+.product_show_textOne{
+    height: 100%;
+    display: none;
+}
+.product_show_textOne_head{
+    margin-bottom: 70px;
+}
+.product_show_textOne_line{
+    width: 500px;
+}
+/*设备展示*/
+.product_show_textOne_slide{
+    height: 100%;
+}
+/*展示一*/
+.slide_one{
+    height: 590px;
+    margin-bottom: 100px;
+}
+.slide_one .slide_one_center{
+    width: 100%;
+    height: 375px;
+    background-color: #52C8E6;
+    box-shadow: 6px 20px 79px #D6D5D5;
+    position: relative;
+}
+.slide_one_center_text{
+    width: 450px;
+    height: 100%;
+    position: absolute;
+    top: 41px;
+    left: 100px;
+    color: #F7FCFD;
+}
+.slide_one_center_text_one{
+    font-size: 45px;
+    font-weight: bold;
+}
+.slide_one_center_text_two{
+    font-size: 24px;
+}
+.slide_one_center_text_three{
+    font-size: 14px;
+    color: #A4DFF0;
+    margin-bottom: 30px;
+}
+.slide_one_center_btn{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.slide_one_center_btn_one{
+    display: block;
+    width: 70px;
+    height: 12px;
+    background-color: #d5d5d5;
+    position: absolute;
+    top:14px;
+    z-index: 1;
+}
+.slide_one_center_btn_two{
+    display: block;
+    width: 93px;
+    height: 37px;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    left: 33px;
+}
+.slide_one_center_btn_three{
+    display: block;
+    width: 150px;
+    height: 1px;
+    box-sizing: border-box;
+    position: absolute;
+    top:18px;
+    left:135px;
+    background-color: white;
+}
+.slide_one_center img{
+    position: absolute;
+    top: 34px;
+    right: 124px;
+}
+/*展示二*/
+.slide_two{
+    height: 225px;
+    margin-bottom: 100px;
+}
+.slide_two img{
+    margin-right: 126px;
+}
+/*展示三*/
+.slide_three{
+    text-align: center;
+}
+
+/*系统展示*/
+.product_show_textTwo{
+    height: 100%;
+}
+/*头部*/
+.product_show_textTwo_head{
+    margin-bottom: 70px;
+}
+.product_show_textTwo_line{
+    width: 600px;
+}
+
+
+/*设备展示&系统展示     结束*/

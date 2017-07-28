@@ -12,13 +12,6 @@ $(function() {
         }
     });
 
-    //导航栏点击高亮
-    $(".nav .nav_ul a").each(function(){
-        $this = $(this);
-        if($this[0].href==String(window.location)){
-            $this.addClass(".active");
-        }
-    });
 
 // 试剂展示
     $(".reagent_nav_div").each(function () {
