@@ -28,6 +28,7 @@
 /*头部*/
 .product_show_textOne{
     height: 100%;
+    display: block;
 }
 .product_show_textOne_head{
     margin-bottom: 70px;
@@ -35,6 +36,15 @@
 .product_show_textOne_line{
     width: 500px;
 }
+
+/*头部*/
+.product_show_textOne_heads{
+    margin-bottom: 70px;
+}
+.product_show_textOne_lines{
+    width: 600px;
+}
+
 /*设备展示*/
 .product_show_textOne_slide{
     height: 100%;
@@ -122,18 +132,32 @@
     text-align: center;
 }
 
+
 /*系统展示*/
 .product_show_textTwo{
     height: 100%;
-    display: none;
+    /*display: none;*/
 }
-/*头部*/
 .product_show_textTwo_head{
     margin-bottom: 70px;
 }
-.product_show_textTwo_line{
-    width: 600px;
+.product_show_textTwo_slide{
+    height: 100%;
+    text-align: center;
 }
+.product_show_textTwo_slide img{
+    margin-bottom: 70px;
+
+}
+/*流程*/
+
 
 
 /*设备展示&系统展示     结束*/
+
+/*合作展示开始*/
+.product_btnTop{
+    height: 100%;
+    margin-bottom: 50px;
+}
+/*合作展示结束*/
