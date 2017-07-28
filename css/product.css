@@ -28,7 +28,7 @@
 /*头部*/
 .product_show_textOne{
     height: 100%;
-    display: block;
+    /*display: block;*/
 }
 .product_show_textOne_head{
     margin-bottom: 70px;
@@ -136,7 +136,7 @@
 /*系统展示*/
 .product_show_textTwo{
     height: 100%;
-    /*display: none;*/
+    display: none;
 }
 .product_show_textTwo_head{
     margin-bottom: 70px;
