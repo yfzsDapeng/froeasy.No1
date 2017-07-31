@@ -1,0 +1,132 @@
+/*新闻主体开始*/
+.new_content{
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*tab栏切换*/
+.new_content_tab{
+    width: 1200px;
+    overflow: hidden;
+    padding-left: 350px;
+}
+.new_content_tab div{
+    float: left;
+    width: 230px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 40px;
+    font-size: 18px;
+    text-decoration:none;
+    color:#3A3A37;
+    text-align: center;
+    cursor:pointer
+}
+
+/*行业动态 start*/
+.new_content_two{
+    display: none;
+}
+/*头部*/
+.new_content_one_line{
+    width: 360px;
+}
+/*行业热点*/
+.new_content_one_hotSpots{
+    height: 100%;
+    margin-bottom: 70px
+}
+.new_content_one_hotSpots h3{
+    font-size: 24px;
+    color: #E60012;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.new_content_one_hotSpots_show{
+    height: 400px;
+}
+.new_content_one_hotSpots_show>div{
+    width: 360px;
+    height: 100%;
+    background-color:#E4E4E4;
+    float: left;
+    margin-right: 60px;
+    padding-top: 10px;
+    text-align: center;
+}
+.new_content_one_hotSpots_show>div p{
+    margin-top:25px;
+    height: 80px;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.new_content_one_hotSpots_show>div:hover{
+    background-color: #52C8E6;
+    color: white;
+}
+.new_content_one_hotSpots_show div .show_span1{
+    font-size: 16px;
+}
+.new_content_one_hotSpots_show div .show_span2{
+    font-size: 18px;
+}
+
+/*最新资讯*/
+/*行业热点*/
+.new_content_one_newest{
+    height: 100%;
+    /*margin-bottom: 70px*/
+}
+.new_content_one_newest h3{
+    color:#51CAE4;
+}
+
+.new_content_one_newest_show{
+    margin-bottom: 60px;
+}
+.new_content_one_hotSpots_show{
+    height: 400px;
+}
+.new_content_one_hotSpots_show>div{
+    width: 360px;
+    height: 100%;
+    background-color:#E4E4E4;
+    float: left;
+    margin-right: 60px;
+    padding-top: 10px;
+    text-align: center;
+}
+.new_content_one_hotSpots_show>div p{
+    margin-top:25px;
+    height: 80px;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.new_content_one_hotSpots_show>div:hover{
+    background-color: #52C8E6;
+    color: white;
+}
+.new_content_one_hotSpots_show div .show_span1{
+    font-size: 16px;
+}
+.new_content_one_hotSpots_show div .show_span2{
+    font-size: 18px;
+}
+/*行业动态end*/
+
+/*新闻资讯 start*/
+/*头部*/
+.new_content_two_line{
+    width: 370px;
+}
+/*新闻资讯end*/
+
+/*新闻主体结束*/
+
