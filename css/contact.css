@@ -1,0 +1,117 @@
+
+/*切换按钮*/
+.contact_show_tab{
+    margin-bottom: 70px;
+}
+
+/*联系方式 开始*/
+.contact_show_one{
+    height: 100%;
+}
+/*头*/
+.contact_show_one_line{
+    width: 430px;
+}
+.contact_show_one_text{
+    height: 123px;
+    border: 1px solid #000;
+    margin-bottom: 70px;
+}
+.contact_show_one_map{
+    height: 460px;
+    border: 1px solid #000;
+    margin-bottom: 70px;
+}
+
+/*联系方式 结束*/
+
+/*在线留言 开始*/
+.contact_show_two{
+    height: 100%;
+    display: none;
+}
+/*头*/
+.contact_show_head{
+    margin-bottom: 70px;
+}
+.contact_show_two_line{
+    width: 300px;
+}
+.contact_show_title{
+    font-size: 18px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+}
+/*表单*/
+.contact_show_form{
+    height: 100%;
+    background-color:#52C8E6 ;
+    margin-bottom: 70px;
+    padding-left: 348px;
+    padding-top: 35px;
+    position: relative;
+}
+.contact_show_form span{
+    color: #ff0000;
+    font-size: 12px;
+    margin-left: 20px;
+}
+label{
+    width: 80px;
+    line-height:33px;
+    font-size: 16px;
+    color: white;
+}
+input{
+    width:325px;
+    height: 33px;
+    border:1px solid #E4E4E4;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    outline: none;
+}
+.contact_show_form .input_lone{
+    width:485px;
+    height: 33px;
+    border:1px solid #E4E4E4;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    outline: none;
+}
+textarea{
+    width: 485px;
+    height: 104px;
+    border:1px solid #E4E4E4;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 20px;
+}
+br{
+    clear: left;
+}
+.note{
+    position: absolute;
+    bottom: 119px;
+    left: 410px;
+    color: white;
+}
+.submit{
+    width: 92px;
+    height: 33px;
+    margin-left: 80px;
+    background-color: #F59416;
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+
+}
+.reset{
+    margin-left: 80px;
+    width: 92px;
+    height: 33px;
+    background-color: #E6E6E6;
+    color: #666666;
+    font-size: 16px;
+}
+/*在线留言 结束*/
