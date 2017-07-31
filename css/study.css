@@ -1,0 +1,77 @@
+/*中心内容 开始*/
+.study_show{
+    height: 100%;
+    margin-bottom: 60px;
+}
+/*头部*/
+.study_show_head{
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.study_show_line{
+    width: 300px;
+}
+.study_show_all{
+    height:1880px;
+    margin-bottom: 70px;
+}
+.study_show_all div{
+    height: 420px;
+    width: 360px;
+    float: left;
+    margin-right: 60px;
+    background-color: rgba(127,127,127,.5);
+    padding: 10px;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+/*first*/
+.study_show_all div .study_show_first_title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 28px;
+    margin-bottom: 45px;
+}
+.study_show_all div .study_show_first_time{
+    font-size: 14px;
+    color: #666666;
+    text-align: right;
+}
+/*else*/
+.study_show_else_time{
+    font-size: 14px;
+    color: #666666;
+    margin-top: 28px;
+}
+.study_show_else_title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+.dian{
+    display: block;
+    width: 2px;
+    height: 2px;
+}
+.study_show_else_link{
+    font-size: 10px;
+    color: #25A9E1;
+}
+.study_more{
+    width: 205px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #676767;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.study_more:hover{
+    background-color:#25A9E1;
+    color: white;
+}
+/*中心内容 结束*/
