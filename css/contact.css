@@ -13,13 +13,13 @@
     width: 430px;
 }
 .contact_show_one_text{
-    height: 300px;
-    padding-top: 80px;
+    height: 150px;
+    padding-top: 30px;
     color: white;
     margin-bottom: 80px;
     text-align: center;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 15px;
     background-color: #52C8E6;
 }
 .contact_show_one_map{
