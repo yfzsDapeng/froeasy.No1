@@ -9,6 +9,19 @@
 /*企业联系人*/
 .recruitment_contact{
     height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
     background-color: #52C8E6;
     margin-bottom: 95px;
 }
+/*招聘信息start*/
+.recruitment_show{
+    height: 100%;
+    padding-top: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #F1F1F1;
+}
+/*招聘信息end*/
