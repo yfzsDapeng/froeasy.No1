@@ -1,0 +1,37 @@
+/*招商内容 start*/
+.merchants_show{
+    height: 100%;
+}
+/*头*/
+.merchants_show_head{
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.merchants_show_line{
+    width: 500px;
+}
+/*主体*/
+.merchants_showAll{
+    height: 100%;
+    padding-left: 505px;
+    position: relative;
+}
+.merchants_showAll_map{
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.merchants_showAll_p{
+    font-size: 18px;
+    color: #666666;
+    text-indent: 2em;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.merchants_showAll_btn{
+    text-align: right;
+    color: #f59416;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+/*招商内容 end*/
