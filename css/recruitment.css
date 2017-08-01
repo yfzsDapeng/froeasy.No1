@@ -1,0 +1,14 @@
+/*标题*/
+.recruitment_head{
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.recruitment_head_line{
+    width: 560px;
+}
+/*企业联系人*/
+.recruitment_contact{
+    height: 80px;
+    background-color: #52C8E6;
+    margin-bottom: 95px;
+}
