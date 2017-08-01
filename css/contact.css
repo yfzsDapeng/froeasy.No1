@@ -13,13 +13,16 @@
     width: 430px;
 }
 .contact_show_one_text{
-    height: 150px;
-    padding-top: 30px;
+    font-family: "Source Han Sans-Light";
+    height: 300px;
+    padding-top: 90px;
+    letter-spacing:3px;
+    font-weight:400;
     color: white;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     text-align: center;
-    font-size: 18px;
-    line-height: 15px;
+    font-size: 24px;
+    line-height: 20px;
     background-color: #52C8E6;
 }
 .contact_show_one_map{
@@ -51,7 +54,7 @@
     height: 100%;
     background-color:#52C8E6 ;
     margin-bottom: 70px;
-    padding-left: 348px;
+    padding-left: 290px;
     padding-top: 35px;
     position: relative;
 }
@@ -61,10 +64,21 @@
     margin-left: 20px;
 }
 label{
-    width: 80px;
+    width: 100px;
     line-height:33px;
     font-size: 16px;
     color: white;
+    font-weight: 400;
+
+}
+.label_one{
+    letter-spacing: 17px;
+}
+.label_two{
+    letter-spacing: 6px;
+}
+.label_three{
+    letter-spacing: 0.4px;
 }
 input{
     width:325px;
@@ -96,22 +110,22 @@ br{
 .note{
     position: absolute;
     bottom: 119px;
-    left: 410px;
+    left: 370px;
     color: white;
 }
 .submit{
     width: 92px;
     height: 33px;
-    margin-left: 80px;
+    margin-left: 150px;
     background-color: #F59416;
     color: white;
     font-size: 16px;
-    margin-top: 50px;
+    margin-top: 40px;
     border: none;
 
 }
 .reset{
-    margin-left: 80px;
+    margin-left:150px;
     width: 92px;
     height: 33px;
     background-color: #E6E6E6;

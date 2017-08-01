@@ -1,7 +1,6 @@
 /*导航开始*/
 ul{
     padding: 0;
-    margin: 0;
 }
 .nav{
     position: fixed;
@@ -113,6 +112,10 @@ ul{
     text-align: center;
     line-height: 47px;
 }
+.equipment_other:hover{
+    border: none;
+    border-radius: 5px;
+}
 .equipment_other a{
     font-family: "Microsoft YaHei";
     display: block;
@@ -124,6 +127,7 @@ ul{
 .equipment_other a:hover{
     color: white;
     background-color: #0ea0db;
+
 }
 /*设备展示结束*/
 
@@ -314,9 +318,9 @@ ul{
 
 /*试剂展示开始*/
 .reagent{
-    height: 750px;
+    height: 633px;
     /*border: 1px solid #000;*/
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 .reagent_head_line{
     width:330px;
@@ -399,26 +403,6 @@ ul{
     font-weight: 400;
 }
 /*遮罩层end*/
-.reagent_other{
-    width: 200px;
-    height: 47px;
-    border: 1px solid #9E9E9E;
-    border-radius: 5px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 47px;
-}
-.reagent_other a{
-    display: block;
-    width: 100%;
-    height: 100%;
-    font-size: 16px;
-    color: #666666;
-}
-.reagent_other a:hover{
-    color: white;
-    background-color: #0ea0db;
-}
 /*试剂展示结束*/
 
 /*底部开始*/
