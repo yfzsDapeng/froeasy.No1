@@ -2,6 +2,8 @@
  * 1. 更正行高在所有的浏览器
  * 2. P在Windows Phone和iOS 中的* IE中，防止方向更改后字体大小的调整。
  */
+/*隐藏浏览器下拉框*/
+::-webkit-scrollbar{width:0px}
 html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -10,6 +12,7 @@ html {
 /**
  *删除所有浏览器的边距
  */
+
 body {
   margin: 0;
   background: #fff;
