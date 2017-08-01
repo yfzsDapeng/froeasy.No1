@@ -13,11 +13,14 @@
     width: 430px;
 }
 .contact_show_one_text{
-    height: 123px;
+    height: 300px;
+    padding-top: 80px;
+    color: white;
     margin-bottom: 80px;
     text-align: center;
     font-size: 24px;
-    line-height: 25px;
+    line-height: 30px;
+    background-color: #52C8E6;
 }
 .contact_show_one_map{
     margin-bottom: 70px;
@@ -104,6 +107,7 @@ br{
     color: white;
     font-size: 16px;
     margin-top: 50px;
+    border: none;
 
 }
 .reset{
