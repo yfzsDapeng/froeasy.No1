@@ -14,12 +14,12 @@
 }
 .contact_show_one_text{
     height: 123px;
-    border: 1px solid #000;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 25px;
 }
 .contact_show_one_map{
-    height: 460px;
-    border: 1px solid #000;
     margin-bottom: 70px;
 }
 
