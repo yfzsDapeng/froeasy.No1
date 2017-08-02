@@ -252,9 +252,6 @@ ul{
     padding: 0 55px;
     font-size: 14px;
 }
-.dynamic_right_text:hover{
-    color: #25A9E0;
-}
 /*诊断平台end*/
 /*动态结束*/
 
@@ -467,6 +464,7 @@ ul{
 .footer_top_right p{
     font-size: 12px;
     font-weight: 500;
+    width: 500px;
 }
 .footer_btn{
     height: 50px;
