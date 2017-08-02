@@ -148,19 +148,19 @@ ul{
     position: relative;
 }
 .advantages_box_title{
+    line-height: 200px;
     position: absolute;
     left: 60px;
     top:120px;
     font-size: 20px;
-    font-family: "Microsoft YaHei";
     font-weight: bold;
 }
 .advantages_box_text{
     position: relative;
     left: 0;
-    top: 0;
+    top: 80px;
     font-size: 14px;
-    font-family: "Microsoft YaHei";
+    line-height: 25px;
 }
 /*我们的优势结束*/
 
