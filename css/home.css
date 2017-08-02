@@ -181,6 +181,9 @@
     font-size: 18px;
     text-align: center;
 }
+.home_culture_center .home_culture_center_btn:hover{
+    background-color:#25A9E0 ;
+}
 
 .home_culture_university{
     width: 100%;

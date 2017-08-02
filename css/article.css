@@ -1,0 +1,55 @@
+
+/*中心内容*/
+/*头*/
+.article_show_head{
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.article_show_line{
+    width: 300px;
+}
+/*主体*/
+.article_showAll{
+    height: 100%;
+}
+.article_showAll_title{
+    text-align: center;
+}
+.article_showAll_title .article_showAll_title_1{
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+.article_showAll_title .article_showAll_title_2{
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.article_showAll_consent{
+    padding-top: 25px;
+    height: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 70px;
+}
+.article_showAll_consent p{
+    text-indent: 2em;
+    font-size: 16px;
+    color: #666666;
+}
+.article_showAll_consent_1{
+    margin-bottom: 30px;
+}
+.article_showAll_icn{
+    height: 60px;
+    margin-bottom: 70px;
+}
+.article_showAll_icn ul{
+    margin-top: 30px;
+}
+.article_showAll_icn li{
+    float: left;
+    margin-right: 10px;
+}

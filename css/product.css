@@ -69,16 +69,18 @@
     color: #F7FCFD;
 }
 .slide_one_center_text_one{
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
 }
 .slide_one_center_text_two{
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 45px;
 }
 .slide_one_center_text_three{
     font-size: 14px;
     color: #A4DFF0;
     margin-bottom: 30px;
+    line-height: 25px;
 }
 .slide_one_center img{
     position: absolute;
