@@ -61,37 +61,25 @@
     padding-bottom: 40px;
     border-bottom: 1px solid #e4e4e4;
 }
-p:nth-child(1){
+.recruitment_p1{
     color: #666666;
     font-size: 16px;
     margin-bottom: 45px;
     letter-spacing: 4px;
 }
-p:nth-child(2){
+.recruitment_p2{
     color: #333333;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 23px;
 }
-p:nth-child(3){
+.recruitment_p3{
     color: #666666;
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 23px;
 }
-p:nth-child(4){
-    color: #666666;
-    font-size: 14px;
-    line-height: 30px;
-}
-p:nth-child(5){
-    margin-top: 23px;
-    color: #666666;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 23px;
-}
-p:nth-child(6){
+.recruitment_p4{
     color: #666666;
     font-size: 14px;
     line-height: 30px;
