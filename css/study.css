@@ -27,7 +27,15 @@
 }
 .study_show_all div:hover{
     background-color: #52C8E6;
+}
+.study_show_all div p:hover{
     color: white;
+}
+.study_show_all div a:hover{
+    color: white;
+}
+.study_show_all div a span:hover{
+    background-color: white;
 }
 
 /*first*/
@@ -44,6 +52,9 @@
     text-align: right;
 }
 /*else*/
+.else_div{
+    position: relative;
+}
 .study_show_else_time{
     font-size: 14px;
     color: #666666;
@@ -55,19 +66,24 @@
     color: #333333;
 }
 .dian{
+    position: absolute;
+    bottom:31px;
+    left:15px;
     display: block;
     width: 2px;
-    height: 2px;
+    height:2px;
+    background-color: #25A9E0;
 }
 .study_show_else_link{
     font-size: 10px;
     color: #25A9E1;
+    padding-left:12px;
 }
 .study_more{
     width: 205px;
     height: 40px;
     line-height: 40px;
-    font-size: 18px;
+    font-size: 16px;
     color: #676767;
     border: 1px solid #999999;
     border-radius: 5px;

@@ -15,7 +15,6 @@
     color: white;
     background-color: #52C8E6;
     margin-bottom: 95px;
-    padding-right: 70px;
 }
 
 
@@ -49,7 +48,7 @@
     border-radius: 5px;
 }
 .recruitment_active{
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: #6ecde4;
     color: white !important;
 }

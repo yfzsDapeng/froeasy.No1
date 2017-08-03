@@ -5,7 +5,7 @@ $(function() {
     var win = $(window); //得到窗口对象
     var sc = $(document);//得到document文档对象。
     win.scroll(function () {
-        if (sc.scrollTop() >= 115) {
+        if (sc.scrollTop() >= 80) {
             nav.css("background-color","rgba(181, 228, 232, 0.7)");
         } else {
             nav.css("background-color","whitesmoke");
