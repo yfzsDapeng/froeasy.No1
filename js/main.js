@@ -12,7 +12,6 @@ $(function() {
         }
     });
 
-
 // 试剂展示
     $(".reagent_nav_div").each(function () {
         $(this).click(function () {

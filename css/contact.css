@@ -27,6 +27,23 @@
 }
 .contact_show_one_map{
     margin-bottom: 70px;
+    position: relative;
+}
+.small_map{
+    position: absolute;
+    top: 120px;
+    right: 445px;
+}
+@keyframes autoMap{
+    from{  }
+    to{
+        /*transform-origin: center;*/
+        transform: rotateY(360deg);
+    }
+}
+/* 定义使用动画的类 */
+.autoMap{
+    animation:autoRotate infinite linear 2s;
 }
 
 /*联系方式 结束*/
