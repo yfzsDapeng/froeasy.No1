@@ -64,14 +64,6 @@ ul{
 }
 /*导航结束*/
 
-/*展示图开始*/
-.center_img{
-    margin-top:80px;
-    width: 100%;
-    height: auto;
-}
-/*展示图结束*/
-
 /*设备展示开始*/
 .equipment{
     margin-bottom: 100px;
@@ -87,6 +79,17 @@ ul{
     border: 1px solid #E3E3E3;
     text-align:center;
     position: relative;
+}
+@keyframes autoRotate{
+    from{  }
+    to{
+        /*transform-origin: center;*/
+        transform: rotateY(360deg);
+    }
+}
+/* 定义使用动画的类 */
+.autoRotate{
+    animation:autoRotate infinite linear 6s;
 }
 .equipment_show_btn{
     width: 100%;
@@ -275,13 +278,13 @@ ul{
 .about_center{
     width: 104px;
     height: 100%;
-    /*border: 1px solid #000;*/
     margin-right: 65px;
 }
 .about_center_top{
     width: 100px;
     height: 25px;
     border: 2px solid white;
+    transition: all 1s linear;
 }
 .about_center_top:hover{
     background-color: white;
@@ -289,11 +292,29 @@ ul{
 .about_img{
     padding-top: 15px;
 }
+@keyframes autoAbout{
+    from{  }
+    to{
+        transition: all 0.4s linear;
+        transform-origin: center;
+        transform: perspective(500px) rotateY(360deg);
+    }
+}
+/* 定义使用动画的类 */
+.autoAbout{
+    animation:autoRotate infinite linear 3s;
+}
+/*  鼠标放上去 动画停止播放 */
+.autoAbout:hover{
+    animation-play-state: paused;
+}
+
 .about_center_btm{
     width: 100px;
     height: 25px;
     border: 2px solid white;
     margin-top: 20px;
+    transition: all 1s linear;
 }
 .about_center_btm:hover{
     background-color: white;
