@@ -281,6 +281,7 @@ ul{
     width: 100px;
     height: 25px;
     border: 2px solid white;
+    transition:all 2s;
 }
 .about_center_btm{
     position: absolute;
@@ -296,21 +297,38 @@ ul{
 .about_center ul{
     height: 240px;
     overflow: hidden;
+    margin-top: 5px;
 }
 .about_center li{
     float: left;
 }
 .about_img{
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .about_center_btm:hover{
     background-color: white;
 }
+/*rotateY(360deg)*/
+@keyframes autoLi{
+    from{
+        transform:translateY(-450px);
+    }
+    to{
+        transform:translateY(100px);
+    }
+}
+/* 定义使用动画的类 */
+.autoLi{
+    animation:autoLi infinite linear 30s;
+}
+.autoLi:hover{
+    animation-play-state:paused;
+}
+
 .about_right{
     width: 415px;
     height: 100%;
-    /*border: 1px solid #000;*/
     text-align: center;
     color: white;
 }

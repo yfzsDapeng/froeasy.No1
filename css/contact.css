@@ -37,13 +37,12 @@
 @keyframes autoMap{
     from{  }
     to{
-        /*transform-origin: center;*/
         transform: rotateY(360deg);
     }
 }
 /* 定义使用动画的类 */
 .autoMap{
-    animation:autoRotate infinite linear 2s;
+    animation:autoMap infinite linear 2s;
 }
 
 /*联系方式 结束*/
