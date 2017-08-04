@@ -12,7 +12,7 @@
     width: 300px;
 }
 .study_show_all{
-    height:1880px;
+    height:100%;
     margin-bottom: 70px;
 }
 .study_show_all div{
@@ -39,17 +39,26 @@
 }
 
 /*first*/
-.study_show_all div .study_show_first_title{
+.study_show_all_first{
+    position: relative;
+}
+.study_show_all .study_show_all_first .study_show_first_title{
     font-size: 18px;
     font-weight: bold;
     color: #333333;
     margin-top: 28px;
     margin-bottom: 45px;
 }
-.study_show_all div .study_show_first_time{
+.study_show_all .study_show_all_first .study_show_first_time{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
     font-size: 14px;
     color: #666666;
     text-align: right;
+}
+.study_show_all_first:hover{
+    background-color: #52C8E6;
 }
 /*else*/
 .else_div{
@@ -67,14 +76,17 @@
 }
 .dian{
     position: absolute;
-    bottom:31px;
-    left:15px;
+    bottom:14px;
+    left:0px;
     display: block;
     width: 2px;
     height:2px;
     background-color: #25A9E0;
 }
 .study_show_else_link{
+    position: absolute;
+    bottom:20px;
+    left:20px;
     font-size: 10px;
     color: #25A9E1;
     padding-left:12px;
