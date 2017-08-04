@@ -136,7 +136,7 @@ ul{
     border-radius: 50%;
     line-height: 170px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 60px;
     position: relative;
 }
 .advantages_box_title{
@@ -266,45 +266,44 @@ ul{
 }
 .about_center{
     width: 104px;
-    height: 100%;
+    height: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-right: 65px;
+    position: relative;
+    overflow: hidden;
+    /*transition: all 1s linear;*/
 }
 .about_center_top{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100px;
     height: 25px;
     border: 2px solid white;
-    transition: all 1s linear;
+}
+.about_center_btm{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100px;
+    height: 25px;
+    border: 2px solid white;
 }
 .about_center_top:hover{
     background-color: white;
 }
+.about_center ul{
+    height: 240px;
+    overflow: hidden;
+}
+.about_center li{
+    float: left;
+}
 .about_img{
     padding-top: 15px;
 }
-@keyframes autoAbout{
-    from{  }
-    to{
-        transition: all 0.4s linear;
-        transform-origin: center;
-        transform: perspective(500px) rotateY(360deg);
-    }
-}
-/* 定义使用动画的类 */
-.autoAbout{
-    animation:autoRotate infinite linear 3s;
-}
-/*  鼠标放上去 动画停止播放 */
-.autoAbout:hover{
-    animation-play-state: paused;
-}
 
-.about_center_btm{
-    width: 100px;
-    height: 25px;
-    border: 2px solid white;
-    margin-top: 20px;
-    transition: all 1s linear;
-}
 .about_center_btm:hover{
     background-color: white;
 }
@@ -401,6 +400,7 @@ ul{
     text-align: center;
     display: none;
     color: white;
+    padding: 0 10px;
 }
 .reagent_cover_h3{
 
@@ -408,7 +408,7 @@ ul{
 }
 .reagent_cover_p{
     text-align: left;
-    padding: 0 10px;
+    padding-top: 80px;
     font-size: 14px;
     text-indent:2em;
     font-weight: 400;
