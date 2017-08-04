@@ -47,6 +47,17 @@ $(function () {
             $(".business").hide();
             $(".transport_management").show();
         }
+        if(c_id=="pathology")
+        {
+            $(".recruitment_showAll").hide();
+            $(".quality_control").hide();
+            $(".information_technology").hide();
+            $(".transport_management").hide();
+            $(".finance").hide();
+            $(".human_resources").hide();
+            $(".business").hide();
+            $(".pathology").show();
+        }
         if(c_id=="finance")
         {
             $(".recruitment_showAll").hide();
