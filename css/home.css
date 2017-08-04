@@ -83,6 +83,7 @@
     width: 330px;
     height: 220px;
     border: 1px solid #15B6FF;
+    box-sizing:border-box;
     float: left;
     margin-right: 105px;
 }
