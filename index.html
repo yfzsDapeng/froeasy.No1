@@ -17,10 +17,10 @@
     <!--导航栏开始-->
     <div class="nav">
         <a class="nav_logo fl" href="#">
-            <img  src="./img/logo.png" alt="" title="首页">
+            <img  src="img/logo.png" alt="" title="首页">
         </a>
         <ul class="nav_ul">
-            <li ><a href="html/home.html" >关于福怡</a></li>
+            <li><a href="html/home.html" >关于福怡</a></li>
             <li><a href="html/product.html">产品与服务</a></li>
             <li><a href="html/clinical.html">临床应用</a></li>
             <li><a href="html/news.html">新闻动态</a></li>
@@ -55,11 +55,11 @@
             <p class="head_one_p">设备展示</p>
         </div>
         <div class="equipment_show_all w">
-            <div class="equipment_show fl">
+            <div class="equipment_show fl equipment_show_b">
                 <img src="img/染片机黑白1.png" alt="">
                 <div class="equipment_show_btn">梵缇斯自动染片机</div>
             </div>
-            <div class="equipment_show fr">
+            <div class="equipment_show fr equipment_show_a">
                 <img src="img/数字病理黑白.png" alt="">
                 <div class="equipment_show_btn">万特数字病理智能诊断系统</div>
             </div>
@@ -79,17 +79,17 @@
             <p class="head_two_p">我们的优势</p>
         </div>
         <div id="boss" class="w ">
-            <div class="advantages_box fl">
+            <div class="advantages_box fl" >
                 <img src="img/biaozhun.png" alt="">
                 <p class="advantages_box_title">标准化</p>
                 <p class="advantages_box_text">在恒定染色条件下，完成病例样本的标准化前端染色</p>
             </div>
-            <div class="advantages_box fl">
+            <div class="advantages_box fl" >
                 <img src="img/green.png" alt="">
                 <p class="advantages_box_title">绿色化</p>
                 <p class="advantages_box_text">绿色净水功能，有效处理废气废液，低碳排放无污染</p>
-            </div>
-            <div class="advantages_box fl">
+            </div >
+            <div class="advantages_box fl" >
                 <img src="img/yiti.png" alt="">
                 <p class="advantages_box_title">一体化</p>
                 <p class="advantages_box_text">集样本标准前端处理，智能在线筛查，远程诊断为一体的智能病理诊断系统</p>
@@ -99,12 +99,15 @@
                 <p class="advantages_box_title">智能化</p>
                 <p class="advantages_box_text">全自动无人值守，智能筛查病理样本</p>
             </div>
-            <div class="advantages_box fl">
+            <div class="advantages_box fl" >
                 <img src="img/yuancheng.png" alt="">
                 <p class="advantages_box_title">远程化</p>
                 <p class="advantages_box_text">大数据和云平台的智能病理远程诊断系统</p>
             </div>
         </div>
+        </div>
+
+
 
     </div>
     <!--我们的优势结束-->
@@ -307,10 +310,19 @@
     </div>
     <!--底部结束-->
 </div>
+<script src="static/js/scrollreveal.min.js"></script>
+<script>
+    // Changing the defaults
+    window.sr = ScrollReveal({ reset: true });
+
+    // Customizing a reveal set
+    sr.reveal('.advantages_box img', {opcity:.1,rotate: { x: 360, y: 360, z: 360 },duration:2000},300);
+</script>
 </body>
 <script src="static/js/jquery-2.1.1.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
 <script src="static/js/swiper-3.4.2.jquery.min.js"></script>
+<script src="static/js/scrollreveal.min.js"></script>
 <script src="js/main.js"></script>
 <script>
     // 轮播图

@@ -14,4 +14,6 @@ $(function () {
             $(".product_show_textOne").hide();
         }
     });
+
+
 });

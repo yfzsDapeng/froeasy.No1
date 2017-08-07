@@ -8,7 +8,7 @@ $(function() {
         if (sc.scrollTop() >= 80) {
             nav.css("background-color","rgba(181, 228, 232, 0.7)");
         } else {
-            nav.css("background-color","whitesmoke");
+            nav.css("background-color","transparent");
         }
     });
 
