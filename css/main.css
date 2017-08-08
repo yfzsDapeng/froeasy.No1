@@ -360,10 +360,6 @@ ul{
 .autoLi{
     animation:autoLi infinite linear 30s;
 }
-.autoLi:hover{
-    animation-play-state:paused;
-}
-
 .about_right{
     width: 415px;
     height: 100%;
