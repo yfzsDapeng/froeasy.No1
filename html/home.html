@@ -92,7 +92,7 @@
                         <img src="../img/home2.png" alt="">
                         <div class="home_culture_center_btn">服务、解决、尊重</div>
                     </div>
-                    <div class="home_culture_center_right" style="margin-right: 0">
+                    <div class="home_culture_center_middle" style="margin-right: 0">
                         <img src="../img/home3.png" alt="">
                         <div class="home_culture_center_btn">服务、配合、结果、感激</div>
                     </div>
@@ -202,6 +202,14 @@
     <!--底部结束-->
 
 </div>
+<script src="../static/js/scrollreveal.min.js"></script>
+<script>
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal(".home_culture_center_left img",{opcity:.1,rotate:{y: 60},duration:1000});
+    sr.reveal(".home_culture_center_middle img",{opcity:.1,rotate:{y: 60},duration:1000});
+    sr.reveal(".home_culture_center_middle img",{opcity:.1,rotate:{y:60},duration:1000});
+    sr.reveal(".achievement_all img",{origin:"top",distance:"200px",opcity:.1,duration:1000});
+</script>
 </body>
 <script src="../static/js/jquery-2.1.1.min.js"></script>
 <script src="../static/js/bootstrap.min.js"></script>

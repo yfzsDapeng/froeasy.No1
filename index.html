@@ -312,11 +312,9 @@
 </div>
 <script src="static/js/scrollreveal.min.js"></script>
 <script>
-    // Changing the defaults
     window.sr = ScrollReveal({ reset: true });
-
-    // Customizing a reveal set
-    sr.reveal('.advantages_box img', {opcity:.1,rotate: { x: 360, y: 360, z: 360 },duration:2000},300);
+    sr.reveal(".advantages_box img",{opcity:.1,origin:"top",distance:"300px",duration:1000},100);
+    sr.reveal(".advantages_box p",{opcity:.1,origin:"bottom",distance:"300px",duration:1000},100);
 </script>
 </body>
 <script src="static/js/jquery-2.1.1.min.js"></script>
