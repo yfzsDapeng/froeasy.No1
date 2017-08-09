@@ -10,42 +10,39 @@ ul{
     height: 80px;
     z-index: 2;
     overflow: hidden;
+    background-color: rgba(0,0,0,.8);
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .nav .nav_logo{
     display: block;
-    position: absolute;
-    top: 2px;
-    left: 120px;
-    width: 110px;
-    height: 80px;
-    line-height: 80px;
     z-index: 2;
 }
 .nav .nav_logo img{
+    width: 25%;
     position: absolute;
-    width: 110px;
+    top:15px;
 }
 .nav .nav_ul {
-    display:table;
-    margin:0 auto;
+    /*display:table;*/
+    /*margin:0 auto;*/
     position: relative;
 }
 .nav .nav_ul li{
     float: left;
-    display:table-cell;
     height: 80px;
     line-height: 80px;
     overflow: hidden;
 }
 .nav li + li {
-    padding-left:40px;
+    padding-left:30px;
 }
 .nav .nav_ul li a{
     display: block;
     height: 70px;
     line-height: 80px;
     font-size: 16px;
-    color: #666666;
+    color: #FFFFFD;
 }
 .nav .nav_ul li a:hover{
     color: #24AAE0;
@@ -55,23 +52,11 @@ ul{
     color: #24AAE0 !important ;
     border-bottom: 2px solid #24AAE0;
 }
-.nav_tel{
-    position: absolute;
-    right: 120px;
-    top:10px;
-    color: #333333;
-    font-size:18px;
-    line-height: 30px;
-}
-@media screen and (max-width: 1330px) {
-    .nav_tel{
-        display: none;
-    }
-}
 /*导航结束*/
 
 /*设备展示开始*/
 .equipment{
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 .equipment_show_all{
@@ -468,6 +453,79 @@ ul{
 }
 /*遮罩层end*/
 /*试剂展示结束*/
+
+/*侧边栏开始*/
+.dock{
+    position: fixed;
+    right: 0;
+    width: 50px;
+    z-index: 200;
+    height: 330px;
+    margin-top: -142px;
+    top: 50%;
+}
+.dock .dock_icons{
+    display: block;
+    position: absolute;
+    list-style: none;
+    right: 0;
+    top: 32px;
+    padding: 0;
+    width: 50px;
+    border: 1px solid rgb(30,40,45);
+    border-right: none;
+    border-radius: 5px;
+    background-color:rgba(30,41,45,.7);
+}
+.dock .dock_icons i{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition:all .3s ease-in-out 0s;
+    z-index:210;
+}
+/*.dock ul.icons li p{*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*top: 50px;*/
+    /*right: 50px;*/
+    /*padding: 10px 20px;*/
+    /*color: #666666;*/
+    /*border: 1px solid #333;*/
+    /*border-right: none;*/
+    /*border-radius: 10px 0 0 10px;*/
+    /*opacity: 1;*/
+    /*transition: all .4s ease-in-out .1s;*/
+    /*overflow: hidden;*/
+    /*z-index: 201;*/
+    /*text-align: center;*/
+/*}*/
+.dock .dock_icons li.dock_im i{
+    background: url("../img/icon_feedback.png")no-repeat center;
+}
+.dock .dock_icons li.dock_tel i{
+    background: url("../img/icon_tel.png")no-repeat center;
+}
+.dock .dock_icons li.dock_wexin i{
+    background: url("../img/icon_weixin.png")no-repeat center;
+}
+.dock .dock_icons li.dock_gupiao i{
+    background: url("../img/icon_gupiao .png")no-repeat center;
+}
+.dock a.switch{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 11px;
+    width: 26px;
+    height: 26px;
+    background: url(../img/icon_close.png) no-repeat center;
+    cursor: pointer;
+    transition-delay: .15s;
+}
+/*侧边栏结束*/
 
 /*底部开始*/
 .footer{

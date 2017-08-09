@@ -19,10 +19,12 @@
         <a class="nav_logo fl" href="#">
             <img  src="img/logo.png" alt="" title="首页">
         </a>
-        <ul class="nav_ul">
-            <li><a href="#" class="active">首页</a></li>
+        <ul class="nav_ul fr">
+            <li><a href="#" class="active">网站首页</a></li>
             <li><a href="html/home.html" >关于福怡</a></li>
-            <li><a href="html/product.html">产品与服务</a></li>
+            <li>
+                <a href="html/product.html">产品与服务</a>
+            </li>
             <li><a href="html/clinical.html">临床应用</a></li>
             <li><a href="html/news.html">新闻动态</a></li>
             <li><a href="html/study.html">病理学之窗</a></li>
@@ -30,21 +32,19 @@
             <li><a href="html/recruitment.html">人才招聘</a></li>
             <li><a href="html/contact.html">联系我们</a></li>
         </ul>
-        <div class="nav_tel">
-            <span>025-84305065</span><br>
-            <span>400-025-1380</span>
-        </div>
+
     </div>
     <!--导航栏结束-->
 
     <!--展示图开始-->
-    <div class="swiper-container" style="margin-top: 80px">
+    <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="img/center_img.png" alt="" width="100%"></div>
-            <div class="swiper-slide"><img src="img/center_img1.png" alt="" width="100%"></div>
+            <div class="swiper-slide"><img src="img/center_img2.jpg" alt="" width="100%"></div>
+            <div class="swiper-slide"><img src="img/center_img3.jpg" alt="" width="100%"></div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white" style="right: 130px;"></div>
+        <div class="swiper-button-prev swiper-button-white" style="left: 130px;"></div>
     </div>
     <!--展示图结束-->
 
@@ -266,6 +266,25 @@
     </div>
     <!--试剂展示结束-->
 
+    <!--侧边栏开始-->
+    <div class="dock">
+        <ul class="dock_icons">
+            <li class="dock_im">
+                <i></i>
+            </li>
+            <li class="dock_tel">
+                <i></i>
+            </li>
+            <li class="dock_wexin">
+                <i></i>
+            </li>
+            <li class="dock_gupiao">
+                <i></i>
+            </li>
+        </ul>
+        <a class="switch"></a>
+    </div>
+    <!--侧边栏结束-->
     <!--底部开始-->
     <div class="footer container-fluid">
         <div class="w">
@@ -324,13 +343,12 @@
 <script>
     // 轮播图
     var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',//分页器容器
-        paginationClickable: true,//使用分页器
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
         spaceBetween: 30,//slide之间的距离
         centeredSlides: true,//设定为true时，活动块会居中
         effect : 'fade',
-        autoplay: 2500,
-        autoplayDisableOnInteraction: false
+        autoplay: 3000
     });
 </script>
 </html>
