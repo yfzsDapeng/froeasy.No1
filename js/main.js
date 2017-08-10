@@ -10,6 +10,57 @@ $(function() {
     //         nav.css("background-color","transparent");
     //     }
     // });
+
+    // 侧边栏
+    $(".dock_im").mouseenter(function () {
+        $("#dock_im_p").show().animate({
+            right:"50px",
+            transition:"all 1s ease-in-out .5s"
+        });
+    });
+    $(".dock_im").mouseleave(function () {
+        $("#dock_im_p").animate({
+            right:"-300px",
+            transition:"all 1s ease-in-out .5s"
+        });
+    });
+    $(".dock_tel").mouseenter(function () {
+        $("#dock_tel_p").show().animate({
+            right:"50px",
+            transition:"all 1s ease-in-out .5s"
+        });
+    });
+    $(".dock_tel").mouseleave(function () {
+        $("#dock_tel_p").animate({
+            right:"-300px",
+            transition:"all 1s ease-in-out .5s"
+        });
+    });
+    $(".dock_wexin").mouseenter(function () {
+        $("#dock_wexin_p").show().animate({
+            right:"50px",
+            transition:"all 1s ease-in-out .5s"
+        });
+    });
+    $(".dock_wexin").mouseleave(function () {
+        $("#dock_wexin_p").animate({
+            right:"-300px",
+            transition:"all 1s ease-in-out .5s"
+        });
+    });
+    $(".dock_gupiao").mouseenter(function () {
+        $("#dock_gupiao_p").show().animate({
+            right:"50px",
+            transition:"all 1s ease-in-out .5s"
+        });
+    });
+    $(".dock_gupiao").mouseleave(function () {
+        $("#dock_gupiao_p").animate({
+            right:"-300px",
+            transition:"all 1s ease-in-out .5s"
+        });
+    });
+
 // 试剂展示
     $(".reagent_nav_div").each(function () {
         $(this).click(function () {

@@ -63,7 +63,7 @@ ul{
     margin-top: -142px;
     top: 50%;
 }
-.dock .dock_icons{
+.dock_icons{
     display: block;
     position: absolute;
     list-style: none;
@@ -71,12 +71,12 @@ ul{
     top: 32px;
     padding: 0;
     width: 50px;
-    border: 1px solid rgb(0, 147, 209);
-    border-right: none;
+    /*border: 1px solid rgb(0, 147, 209);*/
+    /*border-right: none;*/
     border-radius: 5px;
     background-color:rgba(0, 147, 209,.8);
 }
-.dock .dock_icons i{
+.dock_icons i{
     display: block;
     position: relative;
     width: 50px;
@@ -85,45 +85,61 @@ ul{
     transition:all .3s ease-in-out 0s;
     z-index:210;
 }
-.dock ul.dock_icons li p{
+.dock_icons li p{
 position: absolute;
-/*top: 50px;*/
-/*right: 50px;*/
+right: -250px;
 padding: 10px 20px;
 color: #FFFFFD;
-border: 1px solid rgb(0, 147, 209);
 border-right: none;
 border-radius: 10px 0 0 10px;
 opacity: 1;
-transition: all .4s ease-in-out .1s;
-/*overflow: hidden;*/
+overflow: hidden;
 z-index: 201;
 text-align: center;
 background-color:rgba(0, 147, 209,.7);
-display: none;
 }
-.dock .dock_im i{
+.dock_im i{
     background: url("../img/icon_feedback.png")no-repeat center;
 }
-.dock .dock_im p{
+.dock_tel i{
+    background: url("../img/icon_tel.png")no-repeat center;
+}
+.dock_wexin i{
+    background: url("../img/icon_weixin.png")no-repeat center;
+}
+.dock_gupiao i{
+    background: url("../img/icon_gupiao .png")no-repeat center;
+}
+.dock_im p{
     top:0;
-    right: 50px;
     width: 120px;
     height: 50px;
     line-height:30px;
     cursor: pointer;
 }
-.dock .dock_tel i{
-    background: url("../img/icon_tel.png")no-repeat center;
+.dock_im p a{
+    color: #FFFFFD;
+ }
+.dock_tel p{
+    top:50px;
+    width: 140px;
+    height: 50px;
+    line-height:30px;
+    cursor: pointer;
 }
-.dock .dock_wexin i{
-    background: url("../img/icon_weixin.png")no-repeat center;
+.dock_wexin p{
+    top:70px;
+    width: 140px;
+    height: 120px;
+    cursor: pointer;
 }
-.dock .dock_gupiao i{
-    background: url("../img/icon_gupiao .png")no-repeat center;
+.dock_gupiao p{
+    bottom:-10px;
+    width: 140px;
+    height: 50px;
+    line-height:18px;
+    cursor: pointer;
 }
-
-
 /*侧边栏结束*/
 
 /*设备展示开始*/
