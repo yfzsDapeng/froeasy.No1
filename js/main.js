@@ -1,15 +1,40 @@
 $(function() {
-    // 导航栏滚动变色
-    // var nav = $(".nav"); //得到导航对象
-    // var win = $(window); //得到窗口对象
-    // var sc = $(document);//得到document文档对象。
-    // win.scroll(function () {
-    //     if (sc.scrollTop() >= 80) {
-    //         nav.css("background-color","rgba(181, 228, 232, 0.7)");
-    //     } else {
-    //         nav.css("background-color","transparent");
-    //     }
-    // });
+    // 导航栏下拉菜单
+    // 关于福怡
+    $("#guanyu").mouseenter(function () {
+        $(".home_down").show()
+    })
+    $("#guanyu").mouseleave(function () {
+        $(".home_down").hide()
+    })
+    // 产品和服务
+    $("#chanping").mouseenter(function () {
+        $(".product_down").show()
+    })
+    $("#chanping").mouseleave(function () {
+        $(".product_down").hide()
+    })
+    // 临床应用
+    $("#lingchuang").mouseenter(function () {
+        $(".clinical_down").show()
+    })
+    $("#lingchuang").mouseleave(function () {
+        $(".clinical_down").hide()
+    })
+    // 新闻动态
+    $("#xinwen").mouseenter(function () {
+        $(".news_down").show()
+    })
+    $("#xinwen").mouseleave(function () {
+        $(".news_down").hide()
+    })
+    // 联系我们
+    $("#lianxi").mouseenter(function () {
+        $(".contact_down").show()
+    })
+    $("#lianxi").mouseleave(function () {
+        $(".contact_down").hide()
+    })
 
     // 侧边栏
     $(".dock_im").mouseenter(function () {
@@ -83,3 +108,14 @@ $(function() {
         })
     });
 });
+// 导航栏滚动变色
+// var nav = $(".nav"); //得到导航对象
+// var win = $(window); //得到窗口对象
+// var sc = $(document);//得到document文档对象。
+// win.scroll(function () {
+//     if (sc.scrollTop() >= 80) {
+//         nav.css("background-color","rgba(181, 228, 232, 0.7)");
+//     } else {
+//         nav.css("background-color","transparent");
+//     }
+// });
