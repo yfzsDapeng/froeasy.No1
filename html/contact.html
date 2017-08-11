@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body>
-<div id="box">
     <!--导航栏开始-->
     <div class="nav">
         <a class="nav_logo fl" href="../index.html">
@@ -25,30 +24,30 @@
             <li id="guanyu">
                 <a href="home.html" >关于福怡</a>
                 <div class="home_down">
-                    <div class="home_li"><span><a href="home.html">公司简介</a></span></div>
-                    <div class="home_li"><span><a href="home.html">公司荣誉</a></span></div>
+                    <div class="home_li"><span><a href="home.html?home_flag=1">公司简介</a></span></div>
+                    <div class="home_li"><span><a href="home.html?home_flag=2">公司荣誉</a></span></div>
                 </div>
             </li>
             <li id="chanping">
                 <a href="product.html" >产品与服务</a>
                 <div class="product_down">
-                    <div class="product_li"><span ><a href="product.html">设备展示</a></span></div>
-                    <div class="product_li"><span ><a href="product.html">系统展示</a></span></div>
+                    <div class="product_li"><span ><a href="product.html?product_flag=1">设备展示</a></span></div>
+                    <div class="product_li"><span ><a href="product.html?product_flag=2">系统展示</a></span></div>
                 </div>
             </li>
             <li id="lingchuang">
                 <a href="clinical.html">临床应用</a>
                 <div class="clinical_down">
-                    <div class="clinical_li"><span><a href="clinical.html">制片染色</a></span></div>
-                    <div class="clinical_li"><span><a href="clinical.html">扫描上传</a></span></div>
-                    <div class="clinical_li"><span><a href="clinical.html">远程病理诊断平台</a></span></div>
+                    <div class="clinical_li"><span><a href="clinical.html?clinical_page=1">制片染色</a></span></div>
+                    <div class="clinical_li"><span><a href="clinical.html?clinical_page=2">扫描上传</a></span></div>
+                    <div class="clinical_li"><span><a href="clinical.html?clinical_page=3">远程病理诊断平台</a></span></div>
                 </div>
             </li>
             <li id="xinwen">
                 <a href="news.html">新闻动态</a>
                 <div class="news_down">
-                    <div class="news_li"><span><a href="news.html">新闻资讯</a></span></div>
-                    <div class="news_li"><span><a href="news.html">行业动态</a></span></div>
+                    <div class="news_li"><span><a href="news.html?news_page=1">新闻资讯</a></span></div>
+                    <div class="news_li"><span><a href="news.html?news_page=2">行业动态</a></span></div>
                 </div>
             </li>
             <li><a href="study.html">病理学之窗</a></li>
@@ -57,8 +56,8 @@
             <li id="lianxi">
                 <a href="#" class="active" >联系我们</a>
                 <div class="contact_down">
-                    <div class="contact_li"><span><a href="#">联系方式</a></span></div>
-                    <div class="contact_li"><span><a href="#">在线留言</a></span></div>
+                    <div class="contact_li"><span><a href="?contact_page=1">联系方式</a></span></div>
+                    <div class="contact_li"><span><a href="?contact_page=2">在线留言</a></span></div>
                 </div>
             </li>
         </ul>
@@ -93,14 +92,13 @@
     <!--home 展示图结束-->
 
     <!--切换按钮-->
-    <div class="product_show_tab contact_show_tab
-        w">
+    <div class="product_show_tab contact_show_tab w">
         <div id="contact_show_tab_one" class="homeclass hometive">联系方式</div>
         <div id="contact_show_tab_two" class="homeclass " >在线留言</div>
     </div>
 
     <!--联系方式 开始-->
-    <div class="contact_show_one w" name="contact_information">
+    <div class="contact_show_one w" >
         <div class="head_one contact_show_head ">
             <h2 class="head_one_h2">CONTACT INFORMATION</h2>
             <span class="head_one_line contact_show_one_line"></span>
@@ -117,6 +115,7 @@
         </div>
     </div>
     <!--联系方式 结束-->
+
     <!--在线留言 开始-->
     <div class="contact_show_two w">
         <!--头-->
@@ -143,8 +142,6 @@
     </div>
     <!--在线留言 结束-->
 
-
-
     <!--合作展示开始-->
     <div class="product_btnTop w">
         <div class="home_culture_university">
@@ -168,26 +165,26 @@
                 <div class="footer_top_left fl">
                     <div class="footer_top_left_all fl">
                         <h4>关于我们</h4>
-                        <li><a href="home.html#about_us">公司简介</a></li>
-                        <li><a href="home.html#about_us">企业荣誉</a></li>
-                        <li><a href="home.html#about_us">质量及专利</a></li>
+                        <li><a href="home.html?home_flag=1">公司简介</a></li>
+                        <li><a href="home.html?home_flag=2">企业荣誉</a></li>
+                        <li><a href="home.html?home_flag=2">质量及专利</a></li>
                     </div>
                     <div class="footer_top_left_all fl">
                         <h4>产品与服务</h4>
-                        <li><a href="product.html#product_show">设备展示</a></li>
-                        <li><a href="product.html#system_show">系统展示</a></li>
+                        <li><a href="product.html?product_flag=1">设备展示</a></li>
+                        <li><a href="product.html?product_flag=2">系统展示</a></li>
                         <li><a href="../index.html#display_show">试剂展示</a></li>
                     </div>
                     <div class="footer_top_left_all fl">
                         <h4>新闻资讯</h4>
-                        <li><a href="news.html#new">行业动态</a></li>
-                        <li><a href="news.html#new">新闻资讯</a></li>
-                        <li><a href="news.html#new">常见问题</a></li>
+                        <li><a href="news.html?news_page=2">行业动态</a></li>
+                        <li><a href="news.html?news_page=1">新闻资讯</a></li>
+                        <li><a href="study.html">常见问题</a></li>
                     </div>
                     <div class="footer_top_left_all fl">
                         <h4>联系我们</h4>
-                        <li><a href="#contact_information">联系方式</a></li>
-                        <li><a href="#contact_information">在线留言</a></li>
+                        <li><a href="?contact_page=1">联系方式</a></li>
+                        <li><a href="?contact_page=2">在线留言</a></li>
                     </div>
                 </div>
                 <div class="footer_top_right fl">
@@ -198,12 +195,12 @@
                 </div>
             </div>
             <div class="footer_btn">
-                版权所有2010-2011&nbsp; &nbsp;南京福怡科技发展股份有限公司&nbsp; &nbsp;苏ICP备12032703号
+                版权所有2010-2017&nbsp; &nbsp;南京福怡科技发展股份有限公司&nbsp; &nbsp;苏ICP备12032703号
             </div>
         </div>
     </div>
     <!--底部结束-->
-</div>
+
 </body>
 <script src="../static/js/jquery-2.1.1.min.js"></script>
 <script src="../static/js/bootstrap.min.js"></script>
