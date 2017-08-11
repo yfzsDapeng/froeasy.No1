@@ -70,7 +70,18 @@ ul{
 }
 .home_down .home_li span{
     color: white;
-    cursor: pointer;
+}
+.home_down .home_li span a{
+    display: block;
+    height: 30px;
+    line-height:30px;
+    font-size: 14px;
+    color: #FFFFFD;
+}
+.home_down .home_li span a:hover{
+    border:none;
+    color: rgb(0, 147, 209);
+    background-color:#E3E3E3;
 }
 
 /*产品和服务*/
@@ -96,6 +107,18 @@ ul{
 .product_down .product_li span{
     color: white;
     cursor: pointer;
+}
+.product_down .product_li span a{
+    display: block;
+    height: 30px;
+    line-height:30px;
+    font-size: 14px;
+    color: #FFFFFD;
+}
+.product_down .product_li span a:hover{
+    border:none;
+    color: rgb(0, 147, 209);
+    background-color:#E3E3E3;
 }
 
 /*临床应用*/
@@ -126,6 +149,18 @@ ul{
     color: white;
     cursor: pointer;
 }
+.clinical_down .clinical_li span a{
+    display: block;
+    height: 30px;
+    line-height:30px;
+    font-size: 14px;
+    color: #FFFFFD;
+}
+.clinical_down .clinical_li span a:hover{
+    border:none;
+    color: rgb(0, 147, 209);
+    background-color:#E3E3E3;
+}
 
 /*新闻动态*/
 .news_down{
@@ -152,6 +187,18 @@ ul{
     color: white;
     cursor: pointer;
 }
+.news_down .news_li span a{
+    display: block;
+    height: 30px;
+    line-height:30px;
+    font-size: 14px;
+    color: #FFFFFD;
+}
+.news_down .news_li span a:hover{
+    border:none;
+    color: rgb(0, 147, 209);
+    background-color:#E3E3E3;
+}
 
 /*联系我们*/
 .contact_down{
@@ -177,6 +224,18 @@ ul{
 .contact_down .contact_li span{
     color: white;
     cursor: pointer;
+}
+.contact_down .contact_li span a{
+    display: block;
+    height: 30px;
+    line-height:30px;
+    font-size: 14px;
+    color: #FFFFFD;
+}
+.contact_down .contact_li span a:hover{
+    border:none;
+    color: rgb(0, 147, 209);
+    background-color:#E3E3E3;
 }
 /*导航结束*/
 

@@ -7,6 +7,7 @@ $(function() {
     $("#guanyu").mouseleave(function () {
         $(".home_down").hide()
     })
+
     // 产品和服务
     $("#chanping").mouseenter(function () {
         $(".product_down").show()
@@ -35,6 +36,8 @@ $(function() {
     $("#lianxi").mouseleave(function () {
         $(".contact_down").hide()
     })
+
+
 
     // 侧边栏
     $(".dock_im").mouseenter(function () {
