@@ -127,13 +127,13 @@
         <p class="contact_show_title">如果您对我们有什么想法或意见，请填写以下表格，我们会尽快与您联系！</p>
         <!--表单-->
         <form action="#" name="在线留言" class="contact_show_form w">
-            <label class="fl label_one">标题：</label><input type="text" class="input_lone"><span>*</span><br>
-            <label class="fl label_two">联系人：</label><input type="text"><span>*</span><br>
-            <label class="fl label_one">邮箱：</label><input type="email"><span>*</span><br>
-            <label class="fl label_three">单位名称：</label><input type="text" class="input_lone"><span>*</span><br>
-            <label class="fl label_one">电话：</label><input type="text"><span>*</span><br>
-            <label class="fl label_one">传真：</label><input type="text"><br>
-            <label class="fl label_one">内容：</label><textarea></textarea><br>
+            <label class="fl label_one" for="title">标题：</label><input class="input_lone" id="title"><span>*</span><br>
+            <label class="fl label_two" for="Contact_person">联系人：</label><input  id="Contact_person"><span>*</span><br>
+            <label class="fl label_one" for="email">邮箱：</label><input type="email" id="email"><span>*</span><br>
+            <label class="fl label_three" for="company">单位名称：</label><input class="input_lone" id="company"><span>*</span><br>
+            <label class="fl label_one" for="tel">电话：</label><input id="tel"><span>*</span><br>
+            <label class="fl label_one" for="fax">传真：</label><input id="fax"><br>
+            <label class="fl label_one" for="content">内容：</label><textarea id="content"></textarea><br>
             <p class="note"><span>*</span>&nbsp;&nbsp;为必填</p><br>
             <input id="submit" type="submit" value="提交" class="submit">
             <input id="reset" type="reset" value="重置" class="reset">
@@ -165,26 +165,34 @@
                 <div class="footer_top_left fl">
                     <div class="footer_top_left_all fl">
                         <h4>关于我们</h4>
-                        <li><a href="home.html?home_flag=1">公司简介</a></li>
-                        <li><a href="home.html?home_flag=2">企业荣誉</a></li>
-                        <li><a href="home.html?home_flag=2">质量及专利</a></li>
+                        <ul>
+                            <li><a href="home.html?home_flag=1">公司简介</a></li>
+                            <li><a href="home.html?home_flag=2">企业荣誉</a></li>
+                            <li><a href="home.html?home_flag=2">质量及专利</a></li>
+                        </ul>
                     </div>
                     <div class="footer_top_left_all fl">
                         <h4>产品与服务</h4>
-                        <li><a href="product.html?product_flag=1">设备展示</a></li>
-                        <li><a href="product.html?product_flag=2">系统展示</a></li>
-                        <li><a href="../index.html#display_show">试剂展示</a></li>
+                        <ul>
+                            <li><a href="product.html?product_flag=1">设备展示</a></li>
+                            <li><a href="product.html?product_flag=2">系统展示</a></li>
+                            <li><a href="../index.html#display_show">试剂展示</a></li>
+                        </ul>
                     </div>
                     <div class="footer_top_left_all fl">
                         <h4>新闻资讯</h4>
-                        <li><a href="news.html?news_page=2">行业动态</a></li>
-                        <li><a href="news.html?news_page=1">新闻资讯</a></li>
-                        <li><a href="study.html">常见问题</a></li>
+                        <ul>
+                            <li><a href="news.html?news_page=2">行业动态</a></li>
+                            <li><a href="news.html?news_page=1">新闻资讯</a></li>
+                            <li><a href="study.html">常见问题</a></li>
+                        </ul>
                     </div>
                     <div class="footer_top_left_all fl">
                         <h4>联系我们</h4>
-                        <li><a href="?contact_page=1">联系方式</a></li>
-                        <li><a href="?contact_page=2">在线留言</a></li>
+                        <ul>
+                            <li><a href="?contact_page=1">联系方式</a></li>
+                            <li><a href="?contact_page=2">在线留言</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="footer_top_right fl">

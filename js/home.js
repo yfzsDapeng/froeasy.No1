@@ -1,13 +1,13 @@
 $(function () {
     var url = window.location.href;
     var url_param = url.split("=")[1];
-    if(url_param==1)
+    if(url_param === "1")
     {
         $("#home_content_tab_one").addClass("hometive").siblings().removeClass("hometive");
         $(".home_content_textOne").show();
         $(".home_content_textTwo").hide();
     }
-    if(url_param==2)
+    if(url_param === "2")
     {
         $("#home_content_tab_two").addClass("hometive").siblings().removeClass("hometive");
         $(".home_content_textTwo").show();
@@ -19,7 +19,7 @@ $(function () {
         $(".homeclass").click(function(){
             $(this).addClass("hometive").siblings().removeClass("hometive");
             var c_id = $(this).attr("id");
-            if(c_id=="home_content_tab_one")
+            if(c_id==="home_content_tab_one")
             {
                 $(".home_content_textTwo").hide();
                 $(".home_content_textOne").show();

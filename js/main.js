@@ -2,42 +2,38 @@ $(function() {
     // 导航栏下拉菜单
     // 关于福怡
     $("#guanyu").mouseenter(function () {
-        $(".home_down").show()
-    })
-    $("#guanyu").mouseleave(function () {
-        $(".home_down").hide()
-    })
+        $(".home_down").toggle()
+    }).mouseleave(function () {
+        $(".home_down").toggle()
+    });
 
     // 产品和服务
     $("#chanping").mouseenter(function () {
-        $(".product_down").show()
-    })
-    $("#chanping").mouseleave(function () {
-        $(".product_down").hide()
-    })
+        $(".product_down").toggle()
+    }).mouseleave(function () {
+        $(".product_down").toggle()
+    });
+
     // 临床应用
     $("#lingchuang").mouseenter(function () {
-        $(".clinical_down").show()
-    })
-    $("#lingchuang").mouseleave(function () {
-        $(".clinical_down").hide()
-    })
+        $(".clinical_down").toggle()
+    }).mouseleave(function () {
+        $(".clinical_down").toggle()
+    });
+
     // 新闻动态
     $("#xinwen").mouseenter(function () {
-        $(".news_down").show()
-    })
-    $("#xinwen").mouseleave(function () {
-        $(".news_down").hide()
-    })
+        $(".news_down").toggle()
+    }).mouseleave(function () {
+        $(".news_down").toggle()
+    });
+
     // 联系我们
     $("#lianxi").mouseenter(function () {
-        $(".contact_down").show()
-    })
-    $("#lianxi").mouseleave(function () {
-        $(".contact_down").hide()
-    })
-
-
+        $(".contact_down").toggle()
+    }).mouseleave(function () {
+        $(".contact_down").toggle()
+    });
 
     // 侧边栏
     $(".dock_im").mouseenter(function () {
@@ -45,20 +41,19 @@ $(function() {
             right:"50px",
             transition:"all 1s ease-in-out .5s"
         });
-    });
-    $(".dock_im").mouseleave(function () {
+    }).mouseleave(function () {
         $("#dock_im_p").animate({
             right:"-300px",
             transition:"all 1s ease-in-out .5s"
         });
     });
+
     $(".dock_tel").mouseenter(function () {
         $("#dock_tel_p").show().animate({
             right:"50px",
             transition:"all 1s ease-in-out .5s"
         });
-    });
-    $(".dock_tel").mouseleave(function () {
+    }).mouseleave(function () {
         $("#dock_tel_p").animate({
             right:"-300px",
             transition:"all 1s ease-in-out .5s"
@@ -69,8 +64,7 @@ $(function() {
             right:"50px",
             transition:"all 1s ease-in-out .5s"
         });
-    });
-    $(".dock_wexin").mouseleave(function () {
+    }).mouseleave(function () {
         $("#dock_wexin_p").animate({
             right:"-300px",
             transition:"all 1s ease-in-out .5s"
@@ -81,8 +75,7 @@ $(function() {
             right:"50px",
             transition:"all 1s ease-in-out .5s"
         });
-    });
-    $(".dock_gupiao").mouseleave(function () {
+    }).mouseleave(function () {
         $("#dock_gupiao_p").animate({
             right:"-300px",
             transition:"all 1s ease-in-out .5s"
@@ -102,9 +95,7 @@ $(function() {
             var w = $(this).attr("w");
             $("#reagent_cover" + w).css({display: "block"})
         })
-    });
-
-    $(".reagent_show_all").each(function () {
+    }).each(function () {
         $(this).mouseleave(function () {
             var w = $(this).attr("w");
             $("#reagent_cover" + w).css({display: "none"})
