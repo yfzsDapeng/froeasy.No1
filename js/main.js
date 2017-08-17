@@ -85,19 +85,19 @@ $(function() {
 // 试剂展示
     $(".reagent_nav_div").each(function () {
         $(this).click(function () {
-            var v = $(this).attr("v");
+            var v = $(this).attr("data-v");
             $("#reagent_cover" + v).toggle()
         })
     });
 
     $(".reagent_show_all").each(function () {
         $(this).mouseenter(function () {
-            var w = $(this).attr("w");
+            var w = $(this).attr("data-w");
             $("#reagent_cover" + w).css({display: "block"})
         })
     }).each(function () {
         $(this).mouseleave(function () {
-            var w = $(this).attr("w");
+            var w = $(this).attr("data-w");
             $("#reagent_cover" + w).css({display: "none"})
         })
     });
