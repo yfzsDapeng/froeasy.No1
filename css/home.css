@@ -83,6 +83,7 @@
     width: 330px;
     height: 220px;
     border: 1px solid #15B6FF;
+    border-radius: 5px;
     box-sizing:border-box;
     float: left;
     margin-right: 105px;
@@ -100,6 +101,7 @@
     width: 330px;
     height: 220px;
     border: 1px solid #15B6FF;
+    border-radius: 5px;
     float: left;
     margin-right: 105px;
 }
@@ -120,6 +122,7 @@
     width: 180px;
     height: 250px;
     border: 1px solid #15B6FF;
+    border-radius: 5px;
     float: left;
     margin-right: 75px;
 }

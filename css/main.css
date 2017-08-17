@@ -584,7 +584,7 @@ background-color:rgba(0, 147, 209,.7);
 }
 .about_center_btm{
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     width: 100px;
     height: 25px;
@@ -703,6 +703,7 @@ background-color:rgba(0, 147, 209,.7);
     color: white;
     background-color: #0ea0db;
 }
+
 /*遮罩层start*/
 .reagent_cover{
     width: 100%;

@@ -2,37 +2,37 @@ $(function() {
     // 导航栏下拉菜单
     // 关于福怡
     $("#guanyu").mouseenter(function () {
-        $(".home_down").toggle()
+        $(".home_down").toggle("fast")
     }).mouseleave(function () {
-        $(".home_down").toggle()
+        $(".home_down").toggle("fast")
     });
 
     // 产品和服务
     $("#chanping").mouseenter(function () {
-        $(".product_down").toggle()
+        $(".product_down").toggle("fast")
     }).mouseleave(function () {
-        $(".product_down").toggle()
+        $(".product_down").toggle("fast")
     });
 
     // 临床应用
     $("#lingchuang").mouseenter(function () {
-        $(".clinical_down").toggle()
+        $(".clinical_down").toggle("fast")
     }).mouseleave(function () {
-        $(".clinical_down").toggle()
+        $(".clinical_down").toggle("fast")
     });
 
     // 新闻动态
     $("#xinwen").mouseenter(function () {
-        $(".news_down").toggle()
+        $(".news_down").toggle("fast")
     }).mouseleave(function () {
-        $(".news_down").toggle()
+        $(".news_down").toggle("fast")
     });
 
     // 联系我们
     $("#lianxi").mouseenter(function () {
-        $(".contact_down").toggle()
+        $(".contact_down").toggle("fast")
     }).mouseleave(function () {
-        $(".contact_down").toggle()
+        $(".contact_down").toggle("fast")
     });
 
     // 侧边栏
