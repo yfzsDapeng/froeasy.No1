@@ -105,9 +105,11 @@ $(function() {
 // 回到顶部
 function getTop(){
     var top = $(document).scrollTop();
-    if(top>800){
+    if(top>300){
+        $(".dock").fadeIn(1000);
         $("#BackToTop").slideDown();
     } else {
+        $(".dock").fadeOut(300);
         $("#BackToTop").slideUp();
     }
     setTimeout(getTop);

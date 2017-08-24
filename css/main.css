@@ -248,7 +248,7 @@ ul{
     height: 330px;
     margin-top: -142px;
     top: 50%;
-    /*display: none;*/
+    display: none;
 }
 .dock_icons{
     display: block;
