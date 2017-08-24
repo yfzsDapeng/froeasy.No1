@@ -102,6 +102,31 @@ $(function() {
         })
     });
 });
+// 回到顶部
+function getTop(){
+    var top = $(document).scrollTop();
+    if(top>800){
+        $("#BackToTop").slideDown();
+    } else {
+        $("#BackToTop").slideUp();
+    }
+    setTimeout(getTop);
+}
+getTop();
+$("#BackToTop").click(function () {
+    $("body").animate({ scrollTop: 0 }, 1500);
+    return false;
+});
+// 轮播图
+var swiper = new Swiper('.swiper-container', {
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    spaceBetween: 30,//slide之间的距离
+    centeredSlides: true,//设定为true时，活动块会居中
+    effect : 'fade',
+    autoplay: 3000
+});
+
 // 导航栏滚动变色
 // var nav = $(".nav"); //得到导航对象
 // var win = $(window); //得到窗口对象

@@ -248,6 +248,7 @@ ul{
     height: 330px;
     margin-top: -142px;
     top: 50%;
+    /*display: none;*/
 }
 .dock_icons{
     display: block;
@@ -571,7 +572,7 @@ background-color:rgba(0, 147, 209,.7);
     margin-right: 65px;
     position: relative;
     overflow: hidden;
-    /*transition: all 1s linear;*/
+    transition: all 1s linear;
 }
 .about_center_top{
     position: absolute;
@@ -622,6 +623,8 @@ background-color:rgba(0, 147, 209,.7);
 .autoLi{
     animation:autoLi infinite linear 30s;
 }
+
+
 .about_right{
     width: 415px;
     height: 100%;
@@ -798,4 +801,31 @@ background-color:rgba(0, 147, 209,.7);
     color: white;
     line-height: 50px;
 }
+.footer_btn a{
+    color: white;
+}
+.footer_btn a:hover{
+    text-decoration: underline;
+}
 /*底部结束*/
+
+/*回到顶部*/
+#BackToTop {
+    float: left;
+    display: none;
+    z-index: 1;
+    color: #eee;
+    padding: 3px;
+    position:fixed;
+    bottom:30px;
+    right:0;
+    background-color: rgba(0, 147, 209,.8);
+}
+#BackToTop span
+{
+    border: 1px dashed #74a6ea;
+    display: block;
+    padding: 4px 15px;
+    cursor: pointer;
+    background-color: rgba(0, 147, 209,.8);
+}
