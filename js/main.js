@@ -119,24 +119,3 @@ $("#BackToTop").click(function () {
     $("body").animate({ scrollTop: 0 }, 1500);
     return false;
 });
-// 轮播图
-var swiper = new Swiper('.swiper-container', {
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-    spaceBetween: 30,//slide之间的距离
-    centeredSlides: true,//设定为true时，活动块会居中
-    effect : 'fade',
-    autoplay: 3000
-});
-
-// 导航栏滚动变色
-// var nav = $(".nav"); //得到导航对象
-// var win = $(window); //得到窗口对象
-// var sc = $(document);//得到document文档对象。
-// win.scroll(function () {
-//     if (sc.scrollTop() >= 80) {
-//         nav.css("background-color","rgba(181, 228, 232, 0.7)");
-//     } else {
-//         nav.css("background-color","transparent");
-//     }
-// });
