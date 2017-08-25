@@ -4,7 +4,7 @@
     <title> 南京福怡科技发展股份有限公司</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="南京福怡科技发展股份有限公司 - 世界领先的病理智能诊断整体解决方案提供商，开创智能病理，打造国际标准，服务现代医疗。数字病理智能诊断系统 - 二类6840有源医疗器械，自动染片机 - 一类6841有源医疗器械，数字病理远程诊断系统 - 二类6870软件">
     <meta name="keyword" content="医疗器械，病理诊断，智能病理，数字病理，病理，染色液">
     <meta name="author" content="Peng Peng">
@@ -96,8 +96,8 @@
             <div class="swiper-slide"><img src="img/center_img3.jpg" alt="" width="100%"></div>
         </div>
         <!-- Add Arrows -->
-        <div class="swiper-button-next swiper-button-white" style="right: 130px;"></div>
-        <div class="swiper-button-prev swiper-button-white" style="left: 130px;"></div>
+        <div class="swiper-button-next swiper-button-white arrow-left" style="right: 130px;"></div>
+        <div class="swiper-button-prev swiper-button-white arrow-right" style="left: 130px;"></div>
     </div>
     <!--展示图结束-->
 
@@ -255,11 +255,11 @@
                     <p class="head_one_p">试剂展示</p>
                 </div>
                 <div class="reagent_nav">
-                    <div  class="reagent_nav_div fl" data-v="1">巴氏染色液</div>
+                    <div  class="reagent_nav_div fl" data-v="1" style="border-left: none">巴氏染色液</div>
                     <div  class="reagent_nav_div fl" data-v="2">细胞保存液</div>
                     <div  class="reagent_nav_div fl" data-v="3">硫堇伊红染色液</div>
-                    <div  class="reagent_nav_div fl" data-v="4">苏木素伊红染色液R1</div>
-                    <div  class="reagent_nav_div fl" data-v="5"  style="border-right: 1px solid #E4E4E4">苏木素伊红染色液R2</div>
+                    <div  class="reagent_nav_div fl" data-v="4">苏木素伊红染色液</div>
+                    <div  class="reagent_nav_div fl" data-v="5"  style="border-right: none">苏木素伊红染色液</div>
                 </div>
                 <div class="reagent_show">
                     <div class="reagent_show_all fl " data-w="1">
@@ -291,19 +291,19 @@
                     </div>
                     <div  class="reagent_show_all fl" data-w="4">
                         <img src="img/sumusuR1.png" alt="">
-                        <div class="reagent_btn">苏木素伊红染色液R1</div>
+                        <div class="reagent_btn">苏木素伊红染色液</div>
                         <!--遮罩层-->
                         <div id="reagent_cover4" class="reagent_cover">
-                            <h3 class="reagent_cover_h3">苏木素伊红染色液R1</h3>
+                            <h3 class="reagent_cover_h3">苏木素伊红染色液</h3>
                             <p class="reagent_cover_p">500ml/瓶*2，1000ml/瓶*2 ，2瓶/盒。用于临床对人体胸腹水、尿液、痰液和宫颈刷片中的脱落细胞染色，适用于手动染片和本公司生产的自动染片机染色。</p>
                         </div>
                     </div>
                     <div  class="reagent_show_all fl" data-w="5">
                         <img src="img/sumusuR2.png" alt="">
-                        <div class="reagent_btn">苏木素伊红染色液R2</div>
+                        <div class="reagent_btn">苏木素伊红染色液</div>
                         <!--遮罩层-->
                         <div id="reagent_cover5" class="reagent_cover">
-                            <h3 class="reagent_cover_h3">苏木素伊红染色液R2</h3>
+                            <h3 class="reagent_cover_h3">苏木素伊红染色液</h3>
                             <p class="reagent_cover_p">500ml/瓶*2，1000ml/瓶*2 ，2瓶/盒。用于临床对人体胸腹水、尿液、痰液和宫颈刷片中的脱落细胞染色，适用于手动染片和本公司生产的自动染片机染色。</p>
                         </div>
                     </div>
@@ -379,14 +379,16 @@
 <script src="static/js/scrollreveal.min.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript">
-    // 轮播图
-    var swiper = new Swiper('.swiper-container', {
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        spaceBetween: 30,//slide之间的距离
-        centeredSlides: true,//设定为true时，活动块会居中
-        effect : 'fade',
-        autoplay: 3000
+//    轮播图
+    $(function(){
+        var swiper = new Swiper('.swiper-container', {
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,//slide之间的距离
+            centeredSlides: true,//设定为true时，活动块会居中
+            effect : 'fade',
+            autoplay: 3000
+        })
     });
 </script>
 </html>
