@@ -47,6 +47,11 @@ ul{
 
 /*下拉菜单*/
 
+/*banner*/
+.banner{
+    margin-top: 80px;
+}
+
 /*关于福怡*/
 .home_down{
     position: absolute;
@@ -740,7 +745,7 @@ background-color:rgba(31, 45, 61,.7);
 
 /*底部开始*/
 .footer{
-    background-color: #25A9E0;
+    background-color: rgb(31, 45, 61);
     height: 310px;
     padding-top: 20px;
 }
@@ -764,7 +769,7 @@ background-color:rgba(31, 45, 61,.7);
     display: block;
     width: 95px;
     text-align: center;
-    border-bottom: 1px solid #67C3EA;
+    border-bottom: 1px solid white;
     padding-bottom: 10px;
     color: white;
     font-size: 16px;
@@ -778,7 +783,7 @@ background-color:rgba(31, 45, 61,.7);
     font-size: 12px;
 }
 .footer_top_left_all li a:hover{
-    color: black;
+    color: #67C3EA;
 }
 
 .footer_top_right{

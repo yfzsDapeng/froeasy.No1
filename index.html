@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="static/css/swiper.min.css">
 </head>
 <body>
     <!--导航栏开始-->
@@ -91,14 +90,8 @@
     <!--侧边栏结束-->
 
     <!--展示图开始-->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="img/center_img2.jpg" alt="" width="100%"></div>
-            <div class="swiper-slide"><img src="img/center_img3.jpg" alt="" width="100%"></div>
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next swiper-button-white arrow-left" style="right: 130px;"></div>
-        <div class="swiper-button-prev swiper-button-white arrow-right" style="left: 130px;"></div>
+    <div class="banner">
+        <img src="img/banner.png" alt="" width="100%">
     </div>
     <!--展示图结束-->
 
@@ -376,20 +369,6 @@
 </body>
 <script src="static/js/jquery-2.1.1.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
-<script src="static/js/swiper-3.4.2.jquery.min.js"></script>
 <script src="static/js/scrollreveal.min.js"></script>
 <script src="js/main.js"></script>
-<script type="text/javascript">
-//    轮播图
-    $(function(){
-        var swiper = new Swiper('.swiper-container', {
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            spaceBetween: 30,//slide之间的距离
-            centeredSlides: true,//设定为true时，活动块会居中
-            effect : 'fade',
-            autoplay: 3000
-        })
-    });
-</script>
 </html>
